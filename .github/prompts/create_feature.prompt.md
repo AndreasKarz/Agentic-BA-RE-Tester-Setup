@@ -1,11 +1,11 @@
 ---
 agent: 'agent'
-model: 'Claude Sonnet 4.5'
+model: 'Claude Opus 4.6'
 tools: [
   'ado/*',
   'edit/editFiles',
   'search',
-  'Microsoft Docs/*',
+  'microsoft-docs/*',
   'sequential-thinking/*'
 ]
 description: Create a new Feature/PBI in Azure DevOps from a document/markdown source using IREB/ISTQB standards with sequential thinking workflow.
@@ -70,7 +70,7 @@ Hints (do not repeat):
   - search_code/search_wiki/search_workitem: gather additional context from repositories and ADO.
 - No speculation. Mark unverifiable parts as ANNAHME (for DE) or ASSUMPTION (for EN) and ask targeted questions.
 - Always generate well formatted output with titles, headers, and numbered lists.
-- All created work items must include the tag 'AI Gen'.
+- All created work items must include the tag `Ai Gen` — **no other tags** (unless explicitly specified by the user). Never remove existing tags.
 - Preferred terminology (bidirectional):
   - Acceptance Criteria ↔ Akzeptanzkriterien
   - Non-functional requirements (NFRs) ↔ Nichtfunktionale Kriterien
@@ -166,7 +166,7 @@ Procedure:
 6) Work Item Creation
    - Create {{workItemType}} in ADO with all required fields
    - Establish parent-child relationships if {{parentWorkItem}} specified
-   - Add appropriate tags including 'AI Gen'
+   - Add **only** the tag `Ai Gen` — no other tags (unless the user explicitly specifies additional ones). Never remove existing tags.
    - Link to source document and related work items
 
 Output format (Markdown, in this exact order; use German headers when language == "de"):
@@ -213,7 +213,7 @@ Output format (Markdown, in this exact order; use German headers when language =
 - **Work Item Type**: {{workItemType}}
 - **Priorität**: [Hoch/Mittel/Niedrig mit Begründung]
 - **Story Points**: [Schätzung mit Begründung]
-- **Tags**: `AI Gen`, [weitere relevante Tags]
+- **Tags**: `Ai Gen` *(nur dieser Tag — keine weiteren Tags hinzufügen, ausser der Benutzer gibt sie explizit vor)*
 - **Parent**: {{parentWorkItem}} (falls angegeben)
 
 ## Test-Empfehlungen

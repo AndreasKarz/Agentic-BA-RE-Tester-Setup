@@ -144,7 +144,7 @@ Work Item (PBI/Feature)
 **Regeln:**
 - Jeder Testfall ist via "Tested By" mit dem Work Item verlinkt
 - Jedes AC hat mindestens 1 Testfall
-- Testfälle tragen den Tag `AI Gen`
+- Testfälle tragen den Tag `Ai Gen` — **kein anderer Tag** (ausser explizit vom Benutzer vorgegeben). Bestehende Tags beibehalten.
 - Nummerierung: Fortlaufend (1, 2, 3 ...), bei Selektion umnummerieren
 
 ### ADO Test Case Format
@@ -152,7 +152,7 @@ Work Item (PBI/Feature)
 ```
 Title:          TC-[Nr]: [Aussagekräftiger, aktionsorientierter Titel]
 Area Path:      [Gleicher Area Path wie das verlinkte Work Item]
-Tags:           AI Gen
+Tags:           Ai Gen
 Assigned To:    [Optional]
 
 Test Steps:

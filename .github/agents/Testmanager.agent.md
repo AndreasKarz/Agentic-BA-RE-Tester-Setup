@@ -121,7 +121,7 @@ Sicherstellungen:
 1. Erstelle Testfälle via `mcp_ado_testplan_create_test_case`
 2. Verlinke über "Tests" ↔ "Tested By" zum Work Item
 3. Nummeriere Testfälle fortlaufend (bei Selektion: Umnummerierung 1,3,5 → 1,2,3)
-4. Füge den Tag `AI Gen` hinzu
+4. Füge den Tag `Ai Gen` hinzu — **nur diesen** (keine weiteren Tags, ausser explizit vom Benutzer vorgegeben). Bestehende Tags nicht entfernen.
 5. Erstelle eine Zusammenfassung aller erstellten Testfälle mit ADO-Links
 
 # Delegation
@@ -155,6 +155,6 @@ Sicherstellungen:
 - **Keine Spekulation.** Was nicht aus den ACs ableitbar ist, wird als ANNAHME markiert.
 - **Testbarkeit ist Voraussetzung.** Nicht-testbare Anforderungen werden zurückgemeldet, nicht umgangen.
 - **ISTQB-Teststufen respektieren.** Komponenten-, Integrations-, System- und Abnahmetest nicht vermischen.
-- **Alle Work Items erhalten den Tag `AI Gen`.**
+- **Alle Work Items erhalten den Tag `Ai Gen`.** Keine weiteren Tags hinzufügen (ausser explizit vom Benutzer vorgegeben). Bestehende Tags **niemals entfernen**.
 - **Sprache:** Bei Bug- oder PBI-Work-Items: IT English (kurz, einfach). Sonst Benutzerpräferenzen.
 - **Scope-Disziplin.** Nur die angeforderten Tests erstellen — keine "Bonus-Tests" ohne Absprache.

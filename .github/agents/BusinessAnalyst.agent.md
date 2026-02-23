@@ -150,5 +150,5 @@ Erstelle eine Management-taugliche Entscheidungsvorlage:
 - **OKR korrekt anwenden.** Objectives qualitativ, Key Results quantitativ — keine Verwechslung.
 - **Flight Level bestimmen.** Empfehlungen passen zur Steuerungsebene der Diskussion.
 - **Entscheidungsfähig machen.** Jede Analyse endet mit einer klaren Handlungsempfehlung.
-- **Alle Work Items erhalten den Tag `AI Gen`.**
+- **Alle Work Items erhalten den Tag `Ai Gen`.** Keine weiteren Tags hinzufügen (ausser explizit vom Benutzer vorgegeben). Bestehende Tags **niemals entfernen**.
 - **Sprache folgt den Benutzerpräferenzen** aus `user.copilot.instructions.md`.

@@ -1,14 +1,7 @@
 ---
 agent: 'agent'
-model: 'Claude Opus 4.6'
-tools: [
-  'edit/editFiles',
-  'search',
-  'runCommands',
-  'sequential-thinking/*',
-  'memory/*',
-  'playwright/*'
-]
+model: 'Claude Sonnet 4.6'
+tools: [vscode, execute, read, agent, edit, search, web, 'memory/*', 'playwright/*', 'sequential-thinking/*', azure-mcp/search, todo]
 description: Baut ein neues Hierarchical RAG (DIGEST/RAW) für ein Projekt auf — inkl. Quellen-Download, Digest-Generierung, Freshness Gate und Anonymisierung.
 ---
 parameters:

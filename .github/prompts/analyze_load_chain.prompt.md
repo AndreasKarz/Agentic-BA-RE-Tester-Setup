@@ -1,7 +1,7 @@
 ---
 agent: 'agent'
-model: 'Claude Sonnet 4.5'
-tools: ['ado/search_code', 'ado/search_wiki', 'ado/search_workitem', 'search/codebase', 'testFailure', 'runCommands/terminalSelection', 'runCommands/terminalLastCommand', 'search/searchResults', 'edit/editFiles', 'search', 'runCommands', 'runTasks', 'Microsoft Docs/*', 'ado/*', 'sequential-thinking/*']
+model: 'Claude Sonnet 4.6'
+tools: [vscode, execute, read, agent, edit, search, web, 'memory/*', 'sequential-thinking/*', azure-mcp/search, 'ado/*', todo]
 description: End-to-end Property Lineage Discovery across Azure DevOps Repositories with CTRM Work Item Linkage and Comprehensive Documentation
 ---
 parameters:

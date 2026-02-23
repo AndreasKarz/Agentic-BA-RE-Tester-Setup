@@ -128,7 +128,7 @@ Aggregates **support tickets from a CSV file** into a JSON knowledge graph and e
 
 ### **/analyze_time_savings_v2** `**Time Period**`
 
-Analyzes and visualizes **time savings across all WorkItems** in the CTRM project that carry the `AI Gen` tag. Ideal for reporting and ROI evidence.
+Analyzes and visualizes **time savings across all WorkItems** in the CTRM project that carry the `Ai Gen` tag. Ideal for reporting and ROI evidence.
 
 ### **/create_hierarchical_rag** `**Project Name**`
 

@@ -12,7 +12,7 @@ Definiert in `copilot.instructions.md` (immer geladen). Alle Agents erben diesel
 - **Quellenbasiert.** Architekturaussagen mit SHERPA-Quellen, RE-Aussagen mit IREB, Testaussagen mit ISTQB belegen.
 - **Quantifizierung.** Geschäftswert in CHF, NFRs mit Schwellenwerten, Test-Coverage in Prozent.
 - **Deutsch.** Alle Ausgaben in Deutsch (Schweizer Variante, ohne ß, kein Gendering).
-- **Tag `AI Gen`.** Jedes erstellte ADO Work Item erhält diesen Tag.
+- **Tag `Ai Gen`.** Jedes erstellte ADO Work Item erhält diesen Tag — ohne Ausnahme. **Keine weiteren Tags** hinzufügen, die nicht explizit vom Benutzer vorgegeben wurden. Bestehende Tags **niemals entfernen**.
 
 ## Workflow
 

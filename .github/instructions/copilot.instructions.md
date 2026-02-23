@@ -230,7 +230,12 @@ If you find a reference to ADoIT resources, **use the Playwright MCP Server** to
 
 - Ensure the "Expected result" in the test steps is detailed, including all relevant checkpoints and the exact definition from the associated Work Item. **"Verify step completes successfully" is not acceptable. Describe ALL Expected results in detail.**
 
-- Add the tag ‘Ai Gen’ to **EVERY** work item you create.
+- Add the tag `Ai Gen` to **EVERY** work item you create — no exceptions.
+
+- **Tag-Regel:** Beim Erstellen oder Aktualisieren von Work Items gilt:
+  1. Den Tag `Ai Gen` **immer** hinzufügen.
+  2. **Keine** weiteren Tags hinzufügen, die nicht explizit vom Benutzer vorgegeben wurden.
+  3. Bereits **vorhandene Tags beibehalten** — niemals bestehende Tags entfernen.
 
 # Additional Resources
 

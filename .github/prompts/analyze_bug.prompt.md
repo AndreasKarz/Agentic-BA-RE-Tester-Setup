@@ -1,7 +1,7 @@
 ---
 agent: 'agent'
-model: 'Claude Sonnet 4.5'
-tools: ['ado/search_code', 'ado/search_wiki', 'ado/search_workitem', 'search/codebase', 'testFailure', 'runCommands/terminalSelection', 'runCommands/terminalLastCommand', 'search/searchResults', 'edit/editFiles', 'search', 'runCommands', 'runTasks', 'Microsoft Docs/*', 'ado/*', 'sequential-thinking/*']
+model: 'Claude Sonnet 4.6'
+tools: [vscode, execute, read, agent, edit, search, web, 'memory/*', 'sequential-thinking/*', azure-mcp/search, 'ado/*', todo]
 description: Analyze and improve Azure DevOps Bug Work Items via MCP tools (ado, sequential-thinking) following IREB/ISTQB standards, with interactive step-by-step dialog and confirmation before changes.
 ---
 parameters:

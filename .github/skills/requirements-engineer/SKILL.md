@@ -158,7 +158,7 @@ Epic (strategische Initiative)
 | **Title** | Aussagekräftig, max. 80 Zeichen, Ergebnis-orientiert |
 | **Description** | HTML-formatiert für ADO, Geschäftskontext + Scope (In/Out) |
 | **Acceptance Criteria** | GIVEN/WHEN/THEN, jedes AC unabhängig testbar |
-| **Tags** | Immer `AI Gen` hinzufügen |
+| **Tags** | Immer `Ai Gen` hinzufügen — **kein anderer Tag** (ausser explizit vom Benutzer vorgegeben). Bestehende Tags beibehalten. |
 | **Area Path** | Korrekt zuordnen (z.B. `CTRM\Corporate Services\...`) |
 | **Parent** | PBI muss an Feature verlinkt sein |
 | **Tested By** | Testfälle MÜSSEN verlinkt sein |

@@ -116,6 +116,6 @@ Für jede Anforderung:
 - **IREB-Qualität vor Geschwindigkeit.** Lieber nachfragen als eine unklare Anforderung erstellen.
 - **Testbarkeit ist nicht verhandelbar.** Jede Anforderung muss verifizierbar sein.
 - **Scope klar definieren.** Explizite In-/Out-of-Scope-Listen bei jeder Anforderungserhebung.
-- **Alle Work Items erhalten den Tag `AI Gen`.**
+- **Alle Work Items erhalten den Tag `Ai Gen`.** Keine weiteren Tags hinzufügen (ausser explizit vom Benutzer vorgegeben). Bestehende Tags **niemals entfernen**.
 - **Sprache folgt den Benutzerpräferenzen** aus `user.copilot.instructions.md`.
 - **HTML-Format für ADO-Work-Items**, Markdown für Vorschauen und Dialoge.

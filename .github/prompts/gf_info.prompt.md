@@ -1,7 +1,7 @@
 ---
 agent: 'agent'
-model: 'Claude Sonnet 4.5'
-tools: ['ado/search_code', 'ado/search_wiki', 'ado/search_workitem', 'search/codebase', 'testFailure', 'runCommands/terminalSelection', 'runCommands/terminalLastCommand', 'search/searchResults', 'edit/editFiles', 'search', 'runCommands', 'runTasks', 'Microsoft Docs/*', 'ado/*', 'memory/*', 'sequential-thinking/*', 'githubRepo']
+model: 'Claude Sonnet 4.6'
+tools: [vscode, execute, read, agent, edit, search, web, 'memory/*', 'sequential-thinking/*', azure-mcp/search, 'ado/*', todo]
 description: Comprehensive business case analysis for FIM U / U_ITWorkbench following IREB standards with Wiki, Source Code, and Work Item consolidation including Mermaid diagrams.
 ---
 parameters:

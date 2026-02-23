@@ -1,6 +1,6 @@
 ---
 agent: 'agent'
-model: 'Auto'
+model: 'Claude Sonnet 4.6'
 tools: ['execute/getTerminalOutput', 'execute/runTask', 'read/readFile', 'agent', 'edit', 'search', 'web/githubRepo', 'microsoft-docs/*', 'azure-mcp/search', 'ado/*', 'memory/*', 'microsoft-docs/*', 'sequential-thinking/*', 'ms-azuretools.vscode-azure-github-copilot/azure_recommend_custom_modes', 'ms-azuretools.vscode-azure-github-copilot/azure_query_azure_resource_graph', 'ms-azuretools.vscode-azure-github-copilot/azure_get_auth_context', 'ms-azuretools.vscode-azure-github-copilot/azure_set_auth_context', 'ms-azuretools.vscode-azure-github-copilot/azure_get_dotnet_template_tags', 'ms-azuretools.vscode-azure-github-copilot/azure_get_dotnet_templates_for_tag']
 description: Analyze and Illustrate Time Savings over all WorkItems in CTRM with the tag `Ai Gen`.
 ---
