@@ -82,6 +82,14 @@
       "env": {
         "MSSQL_CONNECTION_STRING": "${env:MSSQL_MCP_CONNECTION_STRING}"
       }
+    },
+    "drawio": {
+      "type": "stdio",
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@drawio/mcp"
+      ]
     }
   }
 }
