@@ -27,22 +27,22 @@
 
 | Produkt | Relevantes Reglement |
 | --- | --- |
-| Einzelversicherung | AD_Einzelversicherung |
-| Kollektivversicherung | AD_Kollektivversicherung |
-| Hypotheken | AD_Hypotheken |
-| Anlageprodukte | AD_Anlageprodukte |
-| Helsana KTG/UVG | AD_Helsana_KTG_UVG |
-| Sanitas | AD_Sanitas |
-| SSO | AD_SSO |
-| Vaudoise | AD_Vaudoise |
-| CAP | AD_CAP |
-| Continuum | AD_Continuum |
-| ASN | AD_ASN |
-| Immobilien-DL | AD_Immobilien-DL |
-| SLL-CC/SLPPLI | AD_SLL-CC_SLPPLI |
-| Beratungsdienstleistungen | AD_Beratungsdienstleistungen |
-| Swiss Life Wealth Management | AD_Vermittlung SLWM |
-| Innenbetrieb | IB_Vergütungsreglement |
+| Einzelversicherung | AD\_Einzelversicherung |
+| Kollektivversicherung | AD\_Kollektivversicherung |
+| Hypotheken | AD\_Hypotheken |
+| Anlageprodukte | AD\_Anlageprodukte |
+| Helsana KTG/UVG | AD\_Helsana\_KTG\_UVG |
+| Sanitas | AD\_Sanitas |
+| SSO | AD\_SSO |
+| Vaudoise | AD\_Vaudoise |
+| CAP | AD\_CAP |
+| Continuum | AD\_Continuum |
+| ASN | AD\_ASN |
+| Immobilien-DL | AD\_Immobilien-DL |
+| SLL-CC/SLPPLI | AD\_SLL-CC\_SLPPLI |
+| Beratungsdienstleistungen | AD\_Beratungsdienstleistungen |
+| Swiss Life Wealth Management | AD\_Vermittlung SLWM |
+| Innenbetrieb | IB\_Vergütungsreglement |
 | **Broker EV** | Entschädigungsvereinbarung EV + Anhänge A/B/C |
 | **Broker BV** | Entschädigungsvereinbarung BV (KV) + Anhänge A/B |
 | **Broker Immobilien** | Entschädigungsvereinbarung Immobilien |
@@ -64,31 +64,31 @@ Ordner: `2026 02 04_Aussendienst Vergütungsreglemente/`
 
 | Datei | Gültig ab |
 | --- | --- |
-| AD_Aktionsabschlussvergütung | 01.01.2025 |
-| AD_Anlageprodukte | 01.11.2025 |
-| AD_ASN | 01.01.2026 |
-| AD_Beratungsdienstleistungen | 01.11.2025 |
-| AD_CAP | 01.11.2025 |
-| AD_Continuum | 01.11.2025 |
-| AD_Einzelversicherung | 01.12.2025 |
-| AD_Helsana_KTG_UVG | 01.11.2025 |
-| AD_Hypotheken (Nov 2025) | 01.11.2025 |
-| AD_Hypotheken (Feb 2026) | 01.02.2026 |
-| AD_Immobilien-DL | 01.11.2025 |
-| AD_Kollektivversicherung | 01.01.2026 |
-| AD_Reglement_Historische_ADP-Faktoren | 01.11.2025 |
-| AD_Sanitas | 01.12.2025 |
-| AD_SLL-CC_SLPPLI | 01.11.2025 |
-| AD_SSO | 01.11.2025 |
-| AD_Vaudoise | 01.11.2025 |
-| AD_Vermittlung Swiss Life Wealth Management | 01.11.2025 |
+| AD\_Aktionsabschlussvergütung | 01.01.2025 |
+| AD\_Anlageprodukte | 01.11.2025 |
+| AD\_ASN | 01.01.2026 |
+| AD\_Beratungsdienstleistungen | 01.11.2025 |
+| AD\_CAP | 01.11.2025 |
+| AD\_Continuum | 01.11.2025 |
+| AD\_Einzelversicherung | 01.12.2025 |
+| AD\_Helsana\_KTG\_UVG | 01.11.2025 |
+| AD\_Hypotheken (Nov 2025) | 01.11.2025 |
+| AD\_Hypotheken (Feb 2026) | 01.02.2026 |
+| AD\_Immobilien-DL | 01.11.2025 |
+| AD\_Kollektivversicherung | 01.01.2026 |
+| AD\_Reglement\_Historische\_ADP-Faktoren | 01.11.2025 |
+| AD\_Sanitas | 01.12.2025 |
+| AD\_SLL-CC\_SLPPLI | 01.11.2025 |
+| AD\_SSO | 01.11.2025 |
+| AD\_Vaudoise | 01.11.2025 |
+| AD\_Vermittlung Swiss Life Wealth Management | 01.11.2025 |
 | Reglement zum EuV VB | 01.01.2025 |
 
 #### IB-Reglemente (1 Datei)
 
 | Datei | Gültig ab |
 | --- | --- |
-| IB_Vergütungsreglement | 01.01.2026 |
+| IB\_Vergütungsreglement | 01.01.2026 |
 
 #### Entschädigungshandbücher (2 Dateien)
 
@@ -130,5 +130,5 @@ Ordner: `2026 02 24_Broker Vergütungsreglemente/` — **NEU seit 24.02.2026**
 
 ## Siehe auch
 
-- [01 Handbücher](01_Handbücher.md) → Business Logik und Vertriebsorganisation
-- [10 Prozesse](10_Prozesse.md) → Fachprozesse mit Provisionsbezug
+*   [01 Handbücher](01_Handb%C3%BCcher.md) → Business Logik und Vertriebsorganisation
+*   [10 Prozesse](10_Prozesse.md) → Fachprozesse mit Provisionsbezug
