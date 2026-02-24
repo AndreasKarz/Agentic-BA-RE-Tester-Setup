@@ -1,10 +1,17 @@
 # 03 Reglemente
 
-**RAW:** `RAW/03_Reglemente` | **Files:** 25 | **Size:** ~7.6 MB | **Letzte Aktualisierung:** 2026-02-18
+**RAW:** `RAW/03_Reglemente` | **Files:** 35 | **Size:** ~9.2 MB | **Letzte Aktualisierung:** 2026-02-24
 
 **Stichwörter:** Provision, Provisionssatz, Vergütung, Entschädigung, Bonus, Storno, Reglement, Aussendienst, Innenbetrieb, Einzelleben, Kollektivleben, BVG, Nicht-Leben, Sach, Cross-Border, Fondslösungen, Hypotheken, Krankenversicherung, Sparte, RAD, Reorganisation, Rundschreiben, Gültigkeitsdatum, Berechnungsformel, Satzstruktur
 
 > ⚠️ **Fundament:** Reglemente definieren die verbindlichen Geschäftsregeln. Bei jeder Analyse ZUERST prüfen!
+
+## Ordnerstruktur
+
+| Ordner | Dateien | Inhalt |
+| --- | --- | --- |
+| `2026 02 04_Aussendienst Vergütungsreglemente/` | 25 PDF | AD/IB-Reglemente, Entschädigungshandbücher, Sonderdokumente |
+| `2026 02 24_Broker Vergütungsreglemente/` | 10 DOCX | Entschädigungsvereinbarungen (EV) für Broker/Makler |
 
 ## Dokumenttypen
 
@@ -13,20 +20,32 @@
 | **AD-Reglemente** | Aussendienst — regeln Provisionsansprüche pro Vertriebskanal |
 | **IB-Reglemente** | Innenbetrieb — regeln interne Vergütungen |
 | **Entschädigungshandbücher** | Detailregeln für Entschädigungsberechnungen |
+| **Broker-EV** | Entschädigungsvereinbarungen für Broker (Einzel-, Kollektiv-, Immobilienversicherung) |
 | **Sonderdokumente** | Spezialregelungen (Bonus, RAD-Entschädigungen) |
 
 ## Produkt → Reglement-Zuordnung
 
 | Produkt | Relevantes Reglement |
 | --- | --- |
-| Einzelleben | AD-Reglement Einzelleben |
-| Kollektivleben | AD-Reglement Kollektivleben BVG |
-| Nicht-Leben (Sach) | AD-Reglement Nicht-Leben |
-| Cross-Border | AD-Reglement Cross Border |
-| Innenbetrieb | IB-Reglement |
-| Fondslösungen | AD-Reglement Fondslösungen |
-| Hypotheken | AD-Reglement Hypotheken |
-| Krankenversicherung | AD-Reglement Krankenversicherung |
+| Einzelversicherung | AD_Einzelversicherung |
+| Kollektivversicherung | AD_Kollektivversicherung |
+| Hypotheken | AD_Hypotheken |
+| Anlageprodukte | AD_Anlageprodukte |
+| Helsana KTG/UVG | AD_Helsana_KTG_UVG |
+| Sanitas | AD_Sanitas |
+| SSO | AD_SSO |
+| Vaudoise | AD_Vaudoise |
+| CAP | AD_CAP |
+| Continuum | AD_Continuum |
+| ASN | AD_ASN |
+| Immobilien-DL | AD_Immobilien-DL |
+| SLL-CC/SLPPLI | AD_SLL-CC_SLPPLI |
+| Beratungsdienstleistungen | AD_Beratungsdienstleistungen |
+| Swiss Life Wealth Management | AD_Vermittlung SLWM |
+| Innenbetrieb | IB_Vergütungsreglement |
+| **Broker EV** | Entschädigungsvereinbarung EV + Anhänge A/B/C |
+| **Broker BV** | Entschädigungsvereinbarung BV (KV) + Anhänge A/B |
+| **Broker Immobilien** | Entschädigungsvereinbarung Immobilien |
 
 ## ARE-relevante Regeln
 
@@ -37,47 +56,77 @@
 
 ## Dateien
 
-Alle Dateien im Unterordner `2026 02 04_Reglemente Full Export/` als PDF.
+### Aussendienst Vergütungsreglemente (25 PDF)
 
-### AD-Reglemente (17 Dateien)
+Ordner: `2026 02 04_Aussendienst Vergütungsreglemente/`
 
-| Datei | Gültig ab |
-| --- | --- |
-| AD-Reglement Cross Border Vers 2.0 | 01.04.2022 |
-| AD-Reglement Einzelleben Vers 11.0 | 01.07.2024 |
-| AD-Reglement Einzelleben Vers 12.0 | 01.01.2025 |
-| AD-Reglement Fondslösungen Vers 2.0 und Storno Vers 1.0 | 01.01.2016 |
-| AD-Reglement Fondslösungen Vers 3.0 und Storno Vers 2.0 | 01.01.2018 |
-| AD-Reglement Fondslösungen Vers 4.0 und Storno Vers 3.0 | 01.07.2024 |
-| AD-Reglement Fondslösungen Vers 5.0 und Storno Vers 4.0 | 01.01.2025 |
-| AD-Reglement Hypotheken Vers 1.0 | 01.09.2020 |
-| AD-Reglement Kollektivleben BVG Vers 1.0 | 01.11.2019 |
-| AD-Reglement Kollektivleben BVG Vers 2.0 | 01.01.2025 |
-| AD-Reglement Krankenversicherung Vers 1.0 | 01.01.2020 |
-| AD-Reglement Nicht-Leben Vers 1.0 | 22.11.2019 |
-| AD-Reglement Nicht-Leben Vers 2.0 | 01.01.2022 |
-| AD-Reglement Nicht-Leben Vers 3.0 | 01.01.2025 |
-| Swiss Life AD-Reglement Einzelleben Vers 10.0 | 01.06.2023 |
-| Swiss Life AD-Reglement Fondslösungen Vers 1.0 und Storno Vers 1.0 | In Kraft |
-| Swiss Life AD-Reglement Kollektivleben BVG Vers 1.0 | In Kraft |
-
-### IB-Reglemente (1 Datei)
+#### AD-Reglemente (19 Dateien)
 
 | Datei | Gültig ab |
 | --- | --- |
-| IB-Reglement Vers 1.0 | In Kraft |
+| AD_Aktionsabschlussvergütung | 01.01.2025 |
+| AD_Anlageprodukte | 01.11.2025 |
+| AD_ASN | 01.01.2026 |
+| AD_Beratungsdienstleistungen | 01.11.2025 |
+| AD_CAP | 01.11.2025 |
+| AD_Continuum | 01.11.2025 |
+| AD_Einzelversicherung | 01.12.2025 |
+| AD_Helsana_KTG_UVG | 01.11.2025 |
+| AD_Hypotheken (Nov 2025) | 01.11.2025 |
+| AD_Hypotheken (Feb 2026) | 01.02.2026 |
+| AD_Immobilien-DL | 01.11.2025 |
+| AD_Kollektivversicherung | 01.01.2026 |
+| AD_Reglement_Historische_ADP-Faktoren | 01.11.2025 |
+| AD_Sanitas | 01.12.2025 |
+| AD_SLL-CC_SLPPLI | 01.11.2025 |
+| AD_SSO | 01.11.2025 |
+| AD_Vaudoise | 01.11.2025 |
+| AD_Vermittlung Swiss Life Wealth Management | 01.11.2025 |
+| Reglement zum EuV VB | 01.01.2025 |
 
-### Entschädigungshandbücher (2 Dateien)
+#### IB-Reglemente (1 Datei)
 
-*   Entschädigungshandbuch 2018
-*   Entschädigungshandbuch 2020
+| Datei | Gültig ab |
+| --- | --- |
+| IB_Vergütungsreglement | 01.01.2026 |
 
-### Weitere Dokumente (4 Dateien)
+#### Entschädigungshandbücher (2 Dateien)
 
-*   Bonusreglement 2024
-*   Bonusreglement 2025
-*   Entschädigungsrichtlinie für Reorganisation Aussendienst (RAD)
-*   Rundschreiben Nr. 1 (Ersatzabgangsentschädigungen)
+*   Entschädigungshandbuch Einsteigende
+*   Entschädigungshandbuch Vertriebsmitarbeitende
+
+#### Weitere Dokumente (3 Dateien)
+
+*   Informationen Vermittlung Mobiliar
+*   Merkblatt Aufteilung Provision Anlagegeschäft IB
+*   Mitteilung Jahresendverarbeitung 2024
+
+### Broker Vergütungsreglemente (10 DOCX)
+
+Ordner: `2026 02 24_Broker Vergütungsreglemente/` — **NEU seit 24.02.2026**
+
+#### Einzelversicherung (EV) — gültig ab 01.01.2026 (6 Dateien)
+
+| Datei | Beschreibung |
+| --- | --- |
+| Entschädigungsvereinbarung EV | Rahmenvereinbarung Einzelversicherung |
+| Anhang A zur EV — Produkttabelle | Produktzuordnung |
+| Anhang B zur EV — ProvSatz A (mit SP) | Provisionssätze mit Schadenprävention |
+| Anhang B zur EV — ProvSatz B (keine SP) | Provisionssätze ohne Schadenprävention |
+| Anhang C zur EV — Stornoreserve | Stornoreserve-Regelung |
+| Zusatzvereinbarung zur EV — LSV-Sofortgutschrift | LSV-Sofortrabatt |
+
+#### Berufliche Vorsorge (BV) — gültig ab 01.01.2024 (3 Dateien)
+
+| Datei | Beschreibung |
+| --- | --- |
+| Entschädigungsvereinbarung BV (KV) | Rahmenvereinbarung Kollektivversicherung |
+| Anhang A zur EV BV — Produkttabelle | Produktzuordnung BV |
+| Anhang B zur EV BV — Provisionssatz | Provisionssätze BV |
+
+#### Immobilien — gültig ab 01.01.2024 (1 Datei)
+
+*   Entschädigungsvereinbarung Immobilien
 
 ## Siehe auch
 

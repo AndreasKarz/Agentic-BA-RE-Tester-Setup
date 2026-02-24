@@ -39,7 +39,7 @@
 ## Sync
 
 - SharePoint → Lokal via `scripts/sync-raw.ps1` (Manifest-basierte Änderungserkennung)
-- SharePoint wird aktuell neu beladen — Sync noch nicht aktiv
+- Sync aktiv seit 18.02.2026 — inkl. Rename-Detection und automatischem Digest-Update (Zähler, Grössen, Datum)
 
 ## Do Not Do
 
