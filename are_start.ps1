@@ -68,6 +68,7 @@ git config --global --unset credential.guiprompt
 git config --global --unset credential.githubauthmodes
 git config --global --unset credential.msauthflow
 git config --global --unset credential.interactivemode
+git config --global credential.helper manager
 
 git remote set-url origin https://github.com/AndreasKarz/Agentic-BA-RE-Tester-Setup.git
 git fetch origin
