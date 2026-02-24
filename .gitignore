@@ -437,3 +437,4 @@ FodyWeavers.xsd
 /test-results
 /playwright-report
 /tests
+/.contextstream
