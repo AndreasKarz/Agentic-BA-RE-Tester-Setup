@@ -90,6 +90,17 @@
         "-y",
         "@drawio/mcp"
       ]
+    },
+    "contextstream": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@contextstream/mcp-server"
+      ],
+      "env": {
+        "CONTEXTSTREAM_API_KEY": "${env:CONTEXTSTREAM_API_KEY}"
+      }
     }
   }
 }
