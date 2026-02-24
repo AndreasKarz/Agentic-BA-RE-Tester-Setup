@@ -225,6 +225,7 @@ https://github.com/pnp/cli-microsoft365-mcp-server?tab=readme-ov-file
 [https://github.com/github/github-mcp-server](https://github.com/github/github-mcp-server) 
 
 # Weitere Ressourcen
+- [ContextStream](https://contextstream.io/features) / https://github.com/mcp/contextstreamio/mcp-server 
 - [Awesome Copilot](https://github.com/github/awesome-copilot)
 - [Dokumentation Prompt Files](https://code.visualstudio.com/docs/copilot/copilot-customization#_prompt-files-experimental)
 - [AI Engineer Perplexity Space](https://www.perplexity.ai/spaces/the-ai-engineer-UslyhxrNTriahp77tvqP2g)
