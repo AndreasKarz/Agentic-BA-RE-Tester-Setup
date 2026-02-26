@@ -1,6 +1,6 @@
 ---
 agent: 'agent'
-model: 'Claude Opus 4.6'
+model: 'Claude Sonnet 4.6'
 tools: ['execute', 'read', 'edit', 'search', 'agent', 'azure-mcp/search', 'ado/*', 'memory/*', 'microsoft-docs/*', 'sequential-thinking/*', 'ms-azuretools.vscode-azure-github-copilot/azure_get_auth_context', 'ms-azuretools.vscode-azure-github-copilot/azure_set_auth_context']
 description: Analyze and improve an Azure DevOps Work Item via MCP tools (ado, sequential-thinking) following IREB/ISTQB, with a dry-run preview and optional apply.
 ---
