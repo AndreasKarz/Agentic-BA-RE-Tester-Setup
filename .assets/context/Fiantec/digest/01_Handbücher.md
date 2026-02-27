@@ -1,6 +1,6 @@
 ﻿# 01 Handbücher
 
-**RAW:** `RAW/01_Handbücher` | **Files:** 1'953 | **Size:** ~8.6 GB | **Letzte Aktualisierung:** 2026-02-26
+**RAW:** `RAW/01_Handbücher` | **Files:** 1'953 | **Size:** ~8.6 GB | **Letzte Aktualisierung:** 2026-02-27
 
 **Stichwörter:** Architektur, Datenmodell, Referenzdaten, Schnittstellen, SOAP, REST, WSDL, XSD, Webservice, Vertriebsstruktur, Vertriebsorganisation, Geschäftspartner, Vermittler, Geschäftslogik, IAM, Berechtigungen, Konfiguration, GUI-Dokumentation, Masken, Prozessübersicht, BPMN, ADONIS, Camunda, Verträge, SLA, Vorlagen, Templates, Visio, Zeitscheiben, Historisierung, ProvFia WebClient, Recherchedesigner
 

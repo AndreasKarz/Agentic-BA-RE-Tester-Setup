@@ -1,4 +1,4 @@
-# FiANTEC Context — Ordnerstruktur
+﻿# FiANTEC Context — Ordnerstruktur
 
 **Stand:** 2026-02-27 | **Dateien:** 9'651 | **Grösse:** ~9.7 GB
 
@@ -50,7 +50,7 @@
     │   ├── 2026 02 26_Swiss Life Select Vergütungsreglemente/  5 Dateien
     │   └── 2026 02 26_Vaudoise Vergütungsreglemente/       2 Dateien
     │
-    ├── 04_Testmanagement/               6'692 Dateien, ~769 MB
+    ├── 04_Testmanagement/               6'692 Dateien, ~769.3 MB
     │   ├── Prompt-Testfaelle.docx             (lose, 27 KB)
     │   ├── Anleitungen Testing/              56 Dateien
     │   ├── Azure DevOps/                      6 Dateien

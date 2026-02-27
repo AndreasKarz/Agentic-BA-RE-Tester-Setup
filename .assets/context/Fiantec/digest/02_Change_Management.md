@@ -1,6 +1,6 @@
 ﻿# 02 Change Management
 
-**RAW:** `RAW/02_Change Management` | **Files:** 963 | **Size:** ~252.8 MB | **Letzte Aktualisierung:** 2026-02-26
+**RAW:** `RAW/02_Change Management` | **Files:** 963 | **Size:** ~252.8 MB | **Letzte Aktualisierung:** 2026-02-27
 
 **Stichwörter:** Release, Deployment, Produktivsetzung, GoLive, Change Request, CR, Zertifizierung, Release Bulletin, Zertifikat, ProvFia, DMV, Datenmigration, Canossa, Batchjobs, MEV, Datenbank, BI Reporting, Feature-Spezifikation, Impact-Analyse, Checkliste, Post-GoLive
 

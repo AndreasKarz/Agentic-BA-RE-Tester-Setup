@@ -51,7 +51,7 @@
 | doc | 320 | 01_Handbücher, 02_Change Management |
 | vsd | 178 | 01_Handbücher (Visio-Diagramme) |
 
-> **Hinweis:** Code-Artefakte (java, feature, cs, dll) machen ~50% aller 9'645 Dateien aus (davon 6'628 in SOAP UI/SpecFlow), sind aber für die ARE-Arbeit weniger relevant. Die Metrik **Originaldateien** (3'017) in der Zusammenfassung zählt deshalb nur business-relevante Dokumente. Der vollständige Verzeichnisbaum steht in [STRUKTUR.md](STRUKTUR.md).
+> **Hinweis:** Code-Artefakte (java, feature, cs, dll) machen ~50% aller 9'651 Dateien aus (davon 6'628 in SOAP UI/SpecFlow), sind aber für die ARE-Arbeit weniger relevant. Die Metrik **Originaldateien** (3'023) in der Zusammenfassung zählt deshalb nur business-relevante Dokumente. Der vollständige Verzeichnisbaum steht in [STRUKTUR.md](STRUKTUR.md).
 
 ## Häufige Aufgaben → Relevante Quellen
 
