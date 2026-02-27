@@ -1,6 +1,6 @@
-# 03 Reglemente
+﻿# 03 Reglemente
 
-**RAW:** `RAW/03_Reglemente` | **Files:** 35 | **Size:** ~9.2 MB | **Letzte Aktualisierung:** 2026-02-24
+**RAW:** `RAW/03_Reglemente` | **Files:** 35 | **Size:** ~9.2 MB | **Letzte Aktualisierung:** 2026-02-26
 
 **Stichwörter:** Provision, Provisionssatz, Vergütung, Entschädigung, Bonus, Storno, Reglement, Aussendienst, Innenbetrieb, Einzelleben, Kollektivleben, BVG, Nicht-Leben, Sach, Cross-Border, Fondslösungen, Hypotheken, Krankenversicherung, Sparte, RAD, Reorganisation, Rundschreiben, Gültigkeitsdatum, Berechnungsformel, Satzstruktur
 
@@ -8,10 +8,12 @@
 
 ## Ordnerstruktur
 
-| Ordner | Dateien | Inhalt |
-| --- | --- | --- |
-| `2026 02 04_Aussendienst Vergütungsreglemente/` | 25 PDF | AD/IB-Reglemente, Entschädigungshandbücher, Sonderdokumente |
-| `2026 02 24_Broker Vergütungsreglemente/` | 10 DOCX | Entschädigungsvereinbarungen (EV) für Broker/Makler |
+| Ordner | Dateien | Kanal | Inhalt |
+| --- | --- | --- | --- |
+| `2026 02 04_Aussendienst Vergütungsreglemente/` | 24 PDF | AD | AD/IB-Reglemente, Entschädigungshandbücher, Sonderdokumente |
+| `2026 02 24_Broker Vergütungsreglemente/` | 10 DOCX | Broker | Entschädigungsvereinbarungen (EV) für Broker/Makler |
+| `2026 02 26_Swiss Life Select Vergütungsreglemente/` | 0 | SL Select | (noch leer - Reglemente ausstehend) |
+| `2026 02 26_Vaudoise Vergütungsreglemente/` | 1 PDF | Vaudoise | Vergütungsreglement Vaudoise |
 
 ## Dokumenttypen
 
@@ -56,11 +58,11 @@
 
 ## Dateien
 
-### Aussendienst Vergütungsreglemente (25 PDF)
+### Aussendienst Vergütungsreglemente (24 PDF)
 
 Ordner: `2026 02 04_Aussendienst Vergütungsreglemente/`
 
-#### AD-Reglemente (19 Dateien)
+#### AD-Reglemente (18 Dateien)
 
 | Datei | Gültig ab |
 | --- | --- |
@@ -80,7 +82,7 @@ Ordner: `2026 02 04_Aussendienst Vergütungsreglemente/`
 | AD\_Sanitas | 01.12.2025 |
 | AD\_SLL-CC\_SLPPLI | 01.11.2025 |
 | AD\_SSO | 01.11.2025 |
-| AD\_Vaudoise | 01.11.2025 |
+| ~~AD\_Vaudoise~~ → verschoben nach Vaudoise-Ordner | — |
 | AD\_Vermittlung Swiss Life Wealth Management | 01.11.2025 |
 | Reglement zum EuV VB | 01.01.2025 |
 
@@ -127,6 +129,22 @@ Ordner: `2026 02 24_Broker Vergütungsreglemente/` — **NEU seit 24.02.2026**
 #### Immobilien — gültig ab 01.01.2024 (1 Datei)
 
 *   Entschädigungsvereinbarung Immobilien
+
+### Swiss Life Select Vergütungsreglemente (0 Dateien)
+
+Ordner: `2026 02 26_Swiss Life Select Vergütungsreglemente/` — **NEU seit 26.02.2026**
+
+> Noch leer - Reglemente ausstehend.
+
+### Vaudoise Vergütungsreglemente (1 PDF)
+
+Ordner: `2026 02 26_Vaudoise Vergütungsreglemente/` — **NEU seit 26.02.2026**
+
+| Datei | Gültig ab |
+| --- | --- |
+| AD\_Vaudoise\_dt\_gültig\_ab\_01.11.2025 | 01.11.2025 |
+
+> Verschoben aus dem AD-Ordner, da Vaudoise einen eigenen Vertriebskanal darstellt.
 
 ## Siehe auch
 

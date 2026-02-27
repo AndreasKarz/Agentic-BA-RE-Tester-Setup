@@ -1,6 +1,6 @@
-# 02 Change Management
+﻿# 02 Change Management
 
-**RAW:** `RAW/02_Change Management` | **Files:** 962 | **Size:** ~253 MB | **Letzte Aktualisierung:** 2026-02-24
+**RAW:** `RAW/02_Change Management` | **Files:** 963 | **Size:** ~252.8 MB | **Letzte Aktualisierung:** 2026-02-26
 
 **Stichwörter:** Release, Deployment, Produktivsetzung, GoLive, Change Request, CR, Zertifizierung, Release Bulletin, Zertifikat, ProvFia, DMV, Datenmigration, Canossa, Batchjobs, MEV, Datenbank, BI Reporting, Feature-Spezifikation, Impact-Analyse, Checkliste, Post-GoLive
 
@@ -33,35 +33,40 @@
 
 | Extension | Anzahl | Beschreibung |
 |-----------|--------|--------------|
-| .xlsx | 427 | Hauptformat (Release Bulletins) |
-| .xls | 153 | Ältere Excel-Dateien |
-| .docx | 144 | Word-Dokumente |
-| .msg | 81 | E-Mails |
-| .pdf | 42 | PDFs (Zertifikate, Bulletins) |
-| .doc | 27 | Ältere Word-Dateien |
-| .pptx | 21 | Präsentationen |
-| .xlsm | 5 | Excel mit Makros |
-| .vsdx | 4 | Visio-Diagramme |
-| .pak | 2 | FiANTEC-Paketdateien |
+| .pdf | 292 | PDFs (Zertifikate, Bulletins) |
+| .docx | 279 | Word-Dokumente |
+| .doc | 145 | Ältere Word-Dateien |
+| .xlsx | 80 | Excel-Dateien (Release Bulletins) |
+| .xls | 66 | Ältere Excel-Dateien |
+| .csv | 28 | CSV-Dateien |
+| .txt | 23 | Text-Dateien |
+| .pptx | 9 | Präsentationen |
+| .png | 8 | Bilddateien |
+| .ppt | 8 | Ältere Präsentationen |
 
 ## Unterordner
 
-### Produktivsetzungen (860 Dateien, 207 MB)
+2 lose Dateien auf Ordnerebene:
 
-Release-Dokumentation gegliedert nach Fachbereichen:
+*   **Change Management FTF.pptx** (3.1 MB) - Change-Management-Prozess CH/FTF
+*   **Spec\_Template\_New.docx** (83 KB) - Spezifikationsvorlage (READ-ONLY Referenz)
 
-| Bereich | Dateien |
-|---------|---------|
-| ProvFia | 215 |
-| DMV (Datenmigration) | 143 |
-| Canossa | 122 |
-| Batchjobs | 81 |
-| Schnittstellen | 78 |
-| Datenbank | 55 |
-| BI Reporting | 41 |
-| Tools, Hilfsmittel | 25 |
+### Produktivsetzungen (860 Dateien, 218 MB)
 
-### Features (98 Dateien, 34 MB)
+Release-Dokumentation gegliedert nach Phasen und Jahrgängen (2011-2026):
+
+| Ordner | Dateien | Beschreibung |
+|--------|---------|--------|
+| 88 UAT\_Zertifikate | 312 | UAT-Zertifikate nach Jahr |
+| 89 PAV\_Zertifikate | 309 | PAV-Zertifikate nach Jahr |
+| 90 Release Bulletin | 100 | Release Bulletins |
+| 91 Testberichte | 27 | Testberichte |
+| Aufgaben Produktivsetzung | 6 | Deployment-Aufgaben |
+| Deployment Matrix | 1 | Deployment-Zuordnung |
+| Installierte Versionen | 1 | Versionsübersicht |
+| \_Archive | 103 | Archivierte Release-Dokumente |
+
+### Features (98 Dateien, 31 MB)
 
 Feature-Spezifikationen, Impact-Analysen, Change Requests.
 

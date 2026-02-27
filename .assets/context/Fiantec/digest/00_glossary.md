@@ -112,6 +112,8 @@
 | **IB** | Immobilienberater |
 | **IB-S** | Immobilienberater Senior |
 | **BROK** | Broker |
+| **SLS** | Swiss Life Select - In-House-Broker (ex-AWD, 2014 übernommen), eigene Vergütungsreglemente |
+| **AWD** | Allgemeiner Wirtschaftsdienst - Vorgängerorganisation von Swiss Life Select |
 | **SSU** | Sales Support Unternehmenskunden |
 
 ## Versicherungs-Fachbegriffe

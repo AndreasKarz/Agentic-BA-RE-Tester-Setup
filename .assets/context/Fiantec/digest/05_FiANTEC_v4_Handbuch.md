@@ -1,10 +1,10 @@
-# 05 FiANTEC v4 Handbuch
+﻿# 05 FiANTEC v4 Handbuch
 
-**RAW:** `RAW/05_FiANTEC_v4_Handbuch` | **Files:** 1 | **Size:** ~31.5 MB | **Letzte Aktualisierung:** 2026-02-18
+**RAW:** `RAW/05_FiANTEC_v4_Handbuch` | **Files:** 1 | **Size:** ~31.5 MB | **Letzte Aktualisierung:** 2026-02-26
 
 **Stichwörter:** Handbuch, Benutzerhandbuch, Stammdaten, Geschäftspartner, Vermittler, GA, Makler, Vertriebsvereinbarung, Vertriebsgruppe, Vertriebsstruktur, Qualifikation, Provisionssatz, Provisionsberechnung, Satzfinder, Berechnungsformel, Provisionsbuchung, Stornobehandlung, Bonifikation, Provisionsauszahlung, Auszahlungslauf, Kontenabstimmung, Recherche, Recherchedesigner, Report, Druckauftrag, Import, Export, Batchverarbeitung, MEV, TEV, JEVE, Administration, Benutzerverwaltung, Zeitscheiben
 
-**Datei:** `FiANTEC v4 - Handbuch v4.10.40.pdf` (PDF, pdfplumber-lesbar)
+**Datei:** `SLCH-Handbuch20240305.pdf` (PDF, pdfplumber-lesbar)
 
 ## Kapitelstruktur
 

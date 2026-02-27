@@ -11,9 +11,10 @@
 
 | Typ | Kadenz | Inhalt |
 |-----|--------|--------|
-| **Major Release** | Alle zwei Monate | Neue Features |
-| **Minor Release** | Nach Bedarf | Bugfixes, kleine Erweiterungen |
-| **Patch/Hotfix** | Zwischen Releases | Kritische Fixes |
+| **Major Release** | 6 pro Jahr (alle zwei Monate) | Neue Features, Erweiterungen |
+| **Patch/Hotfix** | Zwischen Releases, nach Bedarf | Kritische Fixes |
+
+> **Kein Minor Release.** CH/FTF folgt strikt den Major Releases. In Ausnahmefällen kann das Team davon abweichen, aber der Standard ist: Major oder Patch.
 
 ## Zertifizierungsprozess
 

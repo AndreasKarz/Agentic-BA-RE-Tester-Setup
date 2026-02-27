@@ -1,6 +1,6 @@
-# 01 Handbücher
+﻿# 01 Handbücher
 
-**RAW:** `RAW/01_Handbücher` | **Files:** 1'953 | **Size:** ~8.6 GB | **Letzte Aktualisierung:** 2026-02-24
+**RAW:** `RAW/01_Handbücher` | **Files:** 1'953 | **Size:** ~8.6 GB | **Letzte Aktualisierung:** 2026-02-26
 
 **Stichwörter:** Architektur, Datenmodell, Referenzdaten, Schnittstellen, SOAP, REST, WSDL, XSD, Webservice, Vertriebsstruktur, Vertriebsorganisation, Geschäftspartner, Vermittler, Geschäftslogik, IAM, Berechtigungen, Konfiguration, GUI-Dokumentation, Masken, Prozessübersicht, BPMN, ADONIS, Camunda, Verträge, SLA, Vorlagen, Templates, Visio, Zeitscheiben, Historisierung, ProvFia WebClient, Recherchedesigner
 
@@ -199,30 +199,39 @@ FiANTEC verwaltet vier Kern-Domänen. Die folgende Tabelle zeigt, **wo im RAW** 
 
 | Extension | Anzahl | Beschreibung |
 | --- | --- | --- |
-| .xlsx | 352 | Hauptformat für Recherchen, DMV, Canossa etc. |
-| .xls | 205 | Ältere Excel-Dateien |
-| .docx | 204 | Word-Dokumente (Spezifikationen, Anleitungen) |
-| .vsd | 177 | Visio-Diagramme (Prozesse, Architektur) |
-| .doc | 143 | Ältere Word-Dokumente |
-| .pdf | 67 | PDFs (Reglemente, signierte Dokumente) |
-| .xlsm | 59 | Excel mit Makros |
+| .xlsx | 456 | Hauptformat für Recherchen, DMV, Canossa etc. |
+| .xls | 397 | Ältere Excel-Dateien |
+| .docx | 290 | Word-Dokumente (Spezifikationen, Anleitungen) |
+| .vsd | 178 | Visio-Diagramme (Prozesse, Architektur) |
+| .doc | 175 | Ältere Word-Dokumente |
+| .csv | 84 | CSV-Dateien |
+| .pdf | 83 | PDFs (Reglemente, signierte Dokumente) |
+| .xlsm | 70 | Excel mit Makros |
 | .pak | 57 | FiANTEC-Paketdateien |
 | .xsd | 20 | XML-Schemadefinitionen |
+| .pptx | 18 | Präsentationen |
+| .msg | 12 | Outlook-Nachrichten |
 | .wsdl | 11 | Webservice-Beschreibungen |
-| .pptx | 7 | Präsentationen |
-| .msg | 7 | Outlook-Nachrichten |
 
 ## Unterordner
 
-### Fachprozesse & Anleitungen (73 Dateien, 249 MB)
+### Fachprozesse & Anleitungen (675 Dateien, 1.8 GB)
 
-Anleitungen und Prozessdokumentationen für den Fachbereich.
+Anleitungen und Prozessdokumentationen für den Fachbereich. 20 lose Dateien auf Ordnerebene (Anleitungen, Glossar, Tools).
 
-*   **ADONIS, Camunda und BPMN/** — 73 Dateien, Prozessmodelle und -dokumentationen
+| Ordner | Dateien | Beschreibung |
+| --- | --- | --- |
+| MEV | 223 | Monatsendverarbeitung - Anleitungen, Checklisten, Protokolle |
+| Reorganisationen (RAD) | 203 | RAD-Prozesse und -Dokumentation |
+| ADONIS, Camunda und BPMN | 103 | Prozessmodelle und -dokumentationen |
+| Archiv | 57 | Archivierte Dokumente |
+| Konfiguration V4 | 25 | Konfigurationsanleitungen |
+| Protokollbearbeitung | 14 | Protokollverarbeitungs-Dokumentation |
+| Weitere (11 Ordner) | 30 | Simulationsrechner, VWS-Import, HRAD, APAGZ u.a. |
 
 ### FiANTEC Systemdoku (1'230 Dateien, 7.0 GB)
 
-Kerndokumentation des FiANTEC-Systems, gegliedert in nummerierte Kapitel:
+Kerndokumentation des FiANTEC-Systems, gegliedert in nummerierte Kapitel. 4 lose Dateien auf Ordnerebene (Nachdokumentationskandidaten, Dokumentenzuordnungsmatrix, Glossar, Harmonisierung).
 
 | Ordner | Dateien | Thema |
 | --- | --- | --- |

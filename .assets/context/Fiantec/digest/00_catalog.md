@@ -1,6 +1,6 @@
-# FiANTEC Context Catalog
+﻿# FiANTEC Context Catalog
 
-**Last Updated:** 2026-02-24  
+**Last Updated:** 2026-02-26  
 **Source:** `.assets/context/Fiantec/RAW`  
 **Ansatz:** Originaldateien (keine Konvertierung zu Markdown)
 
@@ -8,10 +8,10 @@
 
 | Metrik | Wert |
 | --- | --- |
-| **Originaldateien** | 9'644 |
+| **Originaldateien** | 3'017 |
 | **Gesamtgrösse** | ~9.7 GB |
 | **RAW-Ordner** | 6 |
-| **Digest-Dateien** | 11 |
+| **Digest-Dateien** | 11 (+1 Meta-File: STRUKTUR.md) |
 
 ## Schnellnavigation
 
@@ -20,11 +20,11 @@
 | Ordner | Beschreibung | Dateien | Grösse | Digest |
 | --- | --- | --- | --- | --- |
 | 01\_Handbücher | Handbücher, Systemdoku, Anleitungen | 1'953 | 8.6 GB | [→](01_Handb%C3%BCcher.md) |
-| 02\_Change Management | Releases, Zertifikate, CRs | 962 | 253 MB | [→](02_Change_Management.md) |
+| 02\_Change Management | Releases, Zertifikate, CRs | 963 | 252.8 MB | [→](02_Change_Management.md) |
 | 03\_Reglemente | Vergütungsreglemente (KRITISCH) | 35 | 9.2 MB | [→](03_Reglemente.md) |
-| 04\_Testmanagement | Testcode & Testdokumentation | 6'692 | 769 MB | [→](04_Testmanagement.md) |
+| 04\_Testmanagement | Testdokumentation & Testcode | 64 | 32.8 MB | [→](04_Testmanagement.md) |
 | 05\_FiANTEC\_v4\_Handbuch | Offizielles Benutzerhandbuch (PDF) | 1 | 31.5 MB | [→](05_FiANTEC_v4_Handbuch.md) |
-| 06\_test\_mit\_bildern | FiANTEC GUI-Screenshots (laufend befüllt) | 0+ | dynamisch | [→](06_test_mit_bildern.md) |
+| 06\_test\_mit\_bildern | FiANTEC GUI-Screenshots (laufend befüllt) | 1+ | dynamisch | [→](06_test_mit_bildern.md) |
 
 ### Querschnittsthemen
 
@@ -40,18 +40,18 @@
 
 | Format | Anzahl | Vorkommen |
 | --- | --- | --- |
-| java | 2'035 | 04\_Testmanagement (SOAP UI) |
-| feature | 1'025 | 04\_Testmanagement (SpecFlow) |
-| cs | 795 | 04\_Testmanagement (SpecFlow) |
-| dll | 707 | 04\_Testmanagement (SpecFlow) |
-| xlsx | 432+ | 01\_Handbücher, 02\_Change Management |
-| docx | 482+ | 01\_Handbücher, 02\_Change Management |
-| pdf | 384+ | Alle Ordner |
-| doc | 288+ | 01\_Handbücher, 02\_Change Management |
-| xls | 205 | 01\_Handbücher |
-| vsd | 177 | 01\_Handbücher (Visio-Diagramme) |
+| java | 2'036 | 04_Testmanagement (SOAP UI) |
+| feature | 1'025 | 04_Testmanagement (SpecFlow) |
+| cs | 795 | 04_Testmanagement (SpecFlow) |
+| dll | 711 | 04_Testmanagement (SpecFlow) |
+| docx | 601 | 01_Handbücher, 02_Change Management |
+| xlsx | 564 | 01_Handbücher, 02_Change Management |
+| xls | 463 | 01_Handbücher |
+| pdf | 403 | Alle Ordner |
+| doc | 320 | 01_Handbücher, 02_Change Management |
+| vsd | 178 | 01_Handbücher (Visio-Diagramme) |
 
-> **Hinweis:** Code-Artefakte (java, feature, cs, dll) machen >60% der Dateien aus, sind aber für die ARE-Arbeit weniger relevant. Die ~1'800 Office-Dokumente (xlsx, docx, pdf, doc, xls, vsd, pptx) sind der Kernbestand.
+> **Hinweis:** Code-Artefakte (java, feature, cs, dll) machen ~50% aller 9'645 Dateien aus (davon 6'628 in SOAP UI/SpecFlow), sind aber für die ARE-Arbeit weniger relevant. Die Metrik **Originaldateien** (3'017) in der Zusammenfassung zählt deshalb nur business-relevante Dokumente. Der vollständige Verzeichnisbaum steht in [STRUKTUR.md](STRUKTUR.md).
 
 ## Häufige Aufgaben → Relevante Quellen
 

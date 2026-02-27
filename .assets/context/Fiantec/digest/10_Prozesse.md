@@ -11,7 +11,7 @@ Die FiANTEC-Prozesse sind in vier Kategorien gegliedert. Jede Kategorie hat eine
 
 | ID | Prozess | RAW-Ordner | Beschreibung |
 | --- | --- | --- | --- |
-| K_01 | Mandant/Absatzkanal einrichten | `010_K_01_Mandant_Absatzkanal einrichten/` | Ersteinrichtung von Mandanten und Absatzkanälen |
+| K_01 | Mandant/Absatzkanal einrichten | `010_K_01 Mandant_Absatzkanal einrichten/` | Ersteinrichtung von Mandanten und Absatzkanälen |
 | K_02 | Fabriken/Produktbereiche einrichten | `020_K_02_Fabriken_Produktbereiche_einrichten/` | Factories und Produktbereiche konfigurieren |
 | K_03 | Provisionskonfiguration einrichten | `030_K_03_Provisionskonfiguration einrichten/` | Provisionsarten, Staffeln, Vergütungsregeln |
 

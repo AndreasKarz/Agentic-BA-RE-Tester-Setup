@@ -1,6 +1,6 @@
 # FiANTEC Context — Ordnerstruktur
 
-**Stand:** 2026-02-18 | **Dateien:** 9'030 | **Grösse:** ~8.3 GB
+**Stand:** 2026-02-26 | **Dateien:** 9'645 | **Grösse:** ~9.7 GB
 
 ```
 .assets/context/Fiantec/
@@ -26,15 +26,17 @@
 │   ├── 10_Prozesse.md                   Fachprozesse (aus 01_Handbücher)
 │   └── 11_Releases.md                   Namenskonventionen & Release-Typen
 │
-└── RAW/                                 ── ORIGINALDATEIEN (9'030 Dateien, ~8.3 GB)
+└── RAW/                                 ── ORIGINALDATEIEN (9'645 Dateien, ~9.7 GB)
     │
-    ├── 01_Handbücher/                   1'351 Dateien, ~7.3 GB
-    │   ├── Fachprozesse & Anleitungen/       73 Dateien
+    ├── 01_Handbücher/                   1'953 Dateien, ~8.6 GB
+    │   ├── Fachprozesse & Anleitungen/      675 Dateien
     │   ├── FiANTEC Systemdoku/            1'230 Dateien
     │   ├── Verträge & SLA FiANTEC/           43 Dateien
     │   └── Vorlagen & Templates/              5 Dateien
     │
-    ├── 02_Change Management/            961 Dateien, ~250 MB
+    ├── 02_Change Management/            963 Dateien, ~252.8 MB
+    │   ├── Change Management FTF.pptx         (lose, 3.1 MB)
+    │   ├── Spec_Template_New.docx             (lose, 83 KB)
     │   ├── 14.-tgl. & Mev/                   1 Datei
     │   ├── Bugs/                              2 Dateien
     │   ├── Dokumente zu Produktivsetzungen/ 860 Dateien
@@ -42,10 +44,14 @@
     │   ├── Incidents/                         — (leer)
     │   └── Reports/                           — (leer)
     │
-    ├── 03_Reglemente/                   25 Dateien, ~8 MB ⚠️ FUNDAMENT
-    │   └── 2026 02 04_Reglemente Full Export/  25 Dateien
+    ├── 03_Reglemente/                   35 Dateien, ~9.2 MB ⚠️ FUNDAMENT
+    │   ├── 2026 02 04_Aussendienst Vergütungsreglemente/  24 Dateien
+    │   ├── 2026 02 24_Broker Vergütungsreglemente/        10 Dateien
+    │   ├── 2026 02 26_Swiss Life Select Vergütungsreglemente/  0 Dateien
+    │   └── 2026 02 26_Vaudoise Vergütungsreglemente/       1 Datei
     │
     ├── 04_Testmanagement/               6'692 Dateien, ~769 MB
+    │   ├── Prompt-Testfaelle.docx             (lose, 27 KB)
     │   ├── Anleitungen Testing/              56 Dateien
     │   ├── Azure DevOps/                      6 Dateien
     │   ├── Release-Dokumentation/             1 Datei
@@ -54,10 +60,10 @@
     │   └── XMLInterface/                      — (leer)
     │
     ├── 05_FiANTEC_v4_Handbuch/          1 Datei, ~32 MB
-    │   └── FiANTEC_v4_Handbuch.pdf
+    │   └── SLCH-Handbuch20240305.pdf
     │
-    └── 06_test_mit_bildern/             0+ Dateien, dynamisch
-        └── (wird laufend mit GUI-Screenshots befüllt)
+    └── 06_test_mit_bildern/             1 Datei, dynamisch
+        └── FiANTEC Startseite.png             (112 KB)
 ```
 
 ## Legende

@@ -1,6 +1,6 @@
 # FiANTEC Decisions & Constraints
 
-**Updated:** 2026-02-18
+**Updated:** 2026-02-26
 
 ## Entscheidungen
 
@@ -47,3 +47,10 @@
 - Keine Annahmen ohne Quellenbeleg aus RAW-Dokumenten
 - Keine RAW-Änderungen ohne explizite Anweisung
 - Keine ADO-Änderungen ohne explizite Bestätigung
+
+## Do Not Assume
+
+- **Kein SAFe / Sprints / PIs** - CH/FTF arbeitet release-basiert (6 Major Releases/Jahr), nicht in SAFe-Zyklen. Keine Sprint-Planung, kein Program Increment
+- **Keine Minor Releases** - FiANTEC kennt nur Major Releases und Patches. Keine dritte Kategorie erfinden
+- **Keine generischen "häufige Fallen"** - Stolpersteine variieren von BA zu BA, keine pauschalen Fehlerlisten erstellen. Nur dokumentierte, konkret vom User bestätigte Erkenntnisse festhalten
+- **Kein Bug-Template nötig** - Bug-Handling läuft über ADO Built-in-Felder + `/analyze_bug` Prompt. Kein separates Template in den Project Instructions

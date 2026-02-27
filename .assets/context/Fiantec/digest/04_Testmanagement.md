@@ -1,6 +1,6 @@
-# 04 Testmanagement
+﻿# 04 Testmanagement
 
-**RAW:** `RAW/04_Testmanagement` | **Files:** 6'692 | **Size:** ~769 MB | **Letzte Aktualisierung:** 2026-02-18
+**RAW:** `RAW/04_Testmanagement` | **Files:** 6'692 | **Size:** ~769.3 MB | **Letzte Aktualisierung:** 2026-02-26
 
 **Stichwörter:** Test, Testfall, Testschritt, Testdaten, Regression, Systemtest, UAT, PAV, Abnahmetest, SOAP UI, SpecFlow, BDD, Gherkin, Feature-File, Akzeptanzkriterien, Testanleitung, Checkliste, Testprotokoll, Testautomation, Webservice-Test, Pipeline
 
@@ -38,27 +38,29 @@
 
 | Extension | Anzahl |
 | --- | --- |
-| .xml | 2'499 |
-| .cs | 1'533 |
-| .feature | 929 |
-| .json | 312 |
-| .dll | 269 |
-| .csproj | 125 |
-| .config | 104 |
-| .sln | 26 |
-| .exe | 20 |
-| .groovy | 15 |
+| .java | 2'035 |
+| .feature | 1'025 |
+| .cs | 795 |
+| .dll | 707 |
+| .txt | 495 |
+| .xml | 291 |
+| .png | 216 |
+| .gif | 173 |
+| .jar | 125 |
+| .html | 124 |
 
 ### Office-Dokumente
 
 | Extension | Anzahl |
 | --- | --- |
-| .xlsx | 20 |
-| .docx | 11 |
-| .pptx | 3 |
-| .pdf | 3 |
+| .xlsx | 28 |
+| .docx | 22 |
+| .pptx | 2 |
+| .pdf | 2 |
 
 ## Unterordner
+
+1 lose Datei auf Ordnerebene: **Prompt-Testfaelle.docx** (27 KB)
 
 | Ordner | Dateien | Beschreibung |
 | --- | --- | --- |
