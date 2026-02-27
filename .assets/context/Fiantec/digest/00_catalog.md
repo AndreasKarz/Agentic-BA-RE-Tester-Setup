@@ -40,18 +40,18 @@
 
 | Format | Anzahl | Vorkommen |
 | --- | --- | --- |
-| java | 2'036 | 04_Testmanagement (SOAP UI) |
-| feature | 1'025 | 04_Testmanagement (SpecFlow) |
-| cs | 795 | 04_Testmanagement (SpecFlow) |
-| dll | 711 | 04_Testmanagement (SpecFlow) |
-| docx | 601 | 01_Handbücher, 02_Change Management |
-| xlsx | 564 | 01_Handbücher, 02_Change Management |
-| xls | 463 | 01_Handbücher |
-| pdf | 403 | Alle Ordner |
+| java | 2'036 | 01_Handbücher, 04_Testmanagement |
+| feature | 1'025 | 04_Testmanagement |
+| cs | 795 | 04_Testmanagement |
+| dll | 711 | 01_Handbücher, 04_Testmanagement |
+| docx | 607 | 01_Handbücher, 02_Change Management, 03_Reglemente, 04_Testmanagement |
+| xlsx | 564 | 01_Handbücher, 02_Change Management, 04_Testmanagement |
+| txt | 526 | 01_Handbücher, 02_Change Management, 04_Testmanagement |
+| xls | 463 | 01_Handbücher, 02_Change Management |
+| pdf | 403 | 01_Handbücher, 02_Change Management, 03_Reglemente, 04_Testmanagement, 05_FiANTEC_v4_Handbuch |
 | doc | 320 | 01_Handbücher, 02_Change Management |
-| vsd | 178 | 01_Handbücher (Visio-Diagramme) |
 
-> **Hinweis:** Code-Artefakte (java, feature, cs, dll) machen ~50% aller 9'651 Dateien aus (davon 6'628 in SOAP UI/SpecFlow), sind aber für die ARE-Arbeit weniger relevant. Die Metrik **Originaldateien** (3'023) in der Zusammenfassung zählt deshalb nur business-relevante Dokumente. Der vollständige Verzeichnisbaum steht in [STRUKTUR.md](STRUKTUR.md).
+> **Hinweis:** Code-Artefakte (java, feature, cs, dll) machen ~69% aller 9'651 Dateien aus (davon 6'628 in SOAP UI/SpecFlow), sind aber für die ARE-Arbeit weniger relevant. Die Metrik **Originaldateien** (3'023) in der Zusammenfassung zählt deshalb nur business-relevante Dokumente. Der vollständige Verzeichnisbaum steht in [STRUKTUR.md](STRUKTUR.md).
 
 ## Häufige Aufgaben → Relevante Quellen
 

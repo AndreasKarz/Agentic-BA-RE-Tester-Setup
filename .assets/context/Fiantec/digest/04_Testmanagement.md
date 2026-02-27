@@ -68,7 +68,7 @@
 | SOAP UI | 3'106 | SOAP-UI-Projekte und -Testsuiten |
 | SpecFlow | 3'522 | BDD-Tests, .feature-Files |
 | Azure DevOps | 6 | Pipeline-Konfigurationen |
-| Release-Doku | 1 | Release-bezogene Testdoku |
+| Release-Dokumentation | 1 | Release-bezogene Testdoku |
 | XMLInterface | 0 | (leer) |
 
 ## Siehe auch

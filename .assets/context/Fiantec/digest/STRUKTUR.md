@@ -59,7 +59,7 @@
     │   ├── SpecFlow/                      3'522 Dateien
     │   └── XMLInterface/                      — (leer)
     │
-    ├── 05_FiANTEC_v4_Handbuch/          1 Datei, ~32 MB
+    ├── 05_FiANTEC_v4_Handbuch/          1 Datei, ~31.5 MB
     │   └── SLCH-Handbuch20240305.pdf
     │
     └── 06_test_mit_bildern/             1 Datei, dynamisch
