@@ -1,6 +1,6 @@
 # FiANTEC Context — Ordnerstruktur
 
-**Stand:** 2026-02-26 | **Dateien:** 9'645 | **Grösse:** ~9.7 GB
+**Stand:** 2026-02-27 | **Dateien:** 9'651 | **Grösse:** ~9.7 GB
 
 ```
 .assets/context/Fiantec/
@@ -26,7 +26,7 @@
 │   ├── 10_Prozesse.md                   Fachprozesse (aus 01_Handbücher)
 │   └── 11_Releases.md                   Namenskonventionen & Release-Typen
 │
-└── RAW/                                 ── ORIGINALDATEIEN (9'645 Dateien, ~9.7 GB)
+└── RAW/                                 ── ORIGINALDATEIEN (9'651 Dateien, ~9.7 GB)
     │
     ├── 01_Handbücher/                   1'953 Dateien, ~8.6 GB
     │   ├── Fachprozesse & Anleitungen/      675 Dateien
@@ -44,11 +44,11 @@
     │   ├── Incidents/                         — (leer)
     │   └── Reports/                           — (leer)
     │
-    ├── 03_Reglemente/                   35 Dateien, ~9.2 MB ⚠️ FUNDAMENT
+    ├── 03_Reglemente/                   41 Dateien, ~10.3 MB ⚠️ FUNDAMENT
     │   ├── 2026 02 04_Aussendienst Vergütungsreglemente/  24 Dateien
     │   ├── 2026 02 24_Broker Vergütungsreglemente/        10 Dateien
-    │   ├── 2026 02 26_Swiss Life Select Vergütungsreglemente/  0 Dateien
-    │   └── 2026 02 26_Vaudoise Vergütungsreglemente/       1 Datei
+    │   ├── 2026 02 26_Swiss Life Select Vergütungsreglemente/  5 Dateien
+    │   └── 2026 02 26_Vaudoise Vergütungsreglemente/       2 Dateien
     │
     ├── 04_Testmanagement/               6'692 Dateien, ~769 MB
     │   ├── Prompt-Testfaelle.docx             (lose, 27 KB)

@@ -1,6 +1,6 @@
 ﻿# FiANTEC Context Catalog
 
-**Last Updated:** 2026-02-26  
+**Last Updated:** 2026-02-27  
 **Source:** `.assets/context/Fiantec/RAW`  
 **Ansatz:** Originaldateien (keine Konvertierung zu Markdown)
 
@@ -8,7 +8,7 @@
 
 | Metrik | Wert |
 | --- | --- |
-| **Originaldateien** | 3'017 |
+| **Originaldateien** | 3'023 |
 | **Gesamtgrösse** | ~9.7 GB |
 | **RAW-Ordner** | 6 |
 | **Digest-Dateien** | 11 (+1 Meta-File: STRUKTUR.md) |
@@ -21,7 +21,7 @@
 | --- | --- | --- | --- | --- |
 | 01\_Handbücher | Handbücher, Systemdoku, Anleitungen | 1'953 | 8.6 GB | [→](01_Handb%C3%BCcher.md) |
 | 02\_Change Management | Releases, Zertifikate, CRs | 963 | 252.8 MB | [→](02_Change_Management.md) |
-| 03\_Reglemente | Vergütungsreglemente (KRITISCH) | 35 | 9.2 MB | [→](03_Reglemente.md) |
+| 03\_Reglemente | Vergütungsreglemente (KRITISCH) | 41 | 10.3 MB | [→](03_Reglemente.md) |
 | 04\_Testmanagement | Testdokumentation & Testcode | 64 | 32.8 MB | [→](04_Testmanagement.md) |
 | 05\_FiANTEC\_v4\_Handbuch | Offizielles Benutzerhandbuch (PDF) | 1 | 31.5 MB | [→](05_FiANTEC_v4_Handbuch.md) |
 | 06\_test\_mit\_bildern | FiANTEC GUI-Screenshots (laufend befüllt) | 1+ | dynamisch | [→](06_test_mit_bildern.md) |

@@ -1,6 +1,6 @@
 ﻿# 03 Reglemente
 
-**RAW:** `RAW/03_Reglemente` | **Files:** 35 | **Size:** ~9.2 MB | **Letzte Aktualisierung:** 2026-02-26
+**RAW:** `RAW/03_Reglemente` | **Files:** 41 | **Size:** ~10.3 MB | **Letzte Aktualisierung:** 2026-02-27
 
 **Stichwörter:** Provision, Provisionssatz, Vergütung, Entschädigung, Bonus, Storno, Reglement, Aussendienst, Innenbetrieb, Einzelleben, Kollektivleben, BVG, Nicht-Leben, Sach, Cross-Border, Fondslösungen, Hypotheken, Krankenversicherung, Sparte, RAD, Reorganisation, Rundschreiben, Gültigkeitsdatum, Berechnungsformel, Satzstruktur
 
@@ -12,8 +12,8 @@
 | --- | --- | --- | --- |
 | `2026 02 04_Aussendienst Vergütungsreglemente/` | 24 PDF | AD | AD/IB-Reglemente, Entschädigungshandbücher, Sonderdokumente |
 | `2026 02 24_Broker Vergütungsreglemente/` | 10 DOCX | Broker | Entschädigungsvereinbarungen (EV) für Broker/Makler |
-| `2026 02 26_Swiss Life Select Vergütungsreglemente/` | 0 | SL Select | (noch leer - Reglemente ausstehend) |
-| `2026 02 26_Vaudoise Vergütungsreglemente/` | 1 PDF | Vaudoise | Vergütungsreglement Vaudoise |
+| `2026 02 26_Swiss Life Select Vergütungsreglemente/` | 5 DOCX | SL Select | Vergütungsvereinbarungen EV, Kollektivversicherung, Hypotheken, Immobilien |
+| `2026 02 26_Vaudoise Vergütungsreglemente/` | 1 PDF, 1 DOCX | Vaudoise | Vergütungsreglemente AD + BV |
 
 ## Dokumenttypen
 
@@ -48,6 +48,12 @@
 | **Broker EV** | Entschädigungsvereinbarung EV + Anhänge A/B/C |
 | **Broker BV** | Entschädigungsvereinbarung BV (KV) + Anhänge A/B |
 | **Broker Immobilien** | Entschädigungsvereinbarung Immobilien |
+| **SL Select EV** | SLS\_Vergütungsvereinbarung EV + Anhang A Produkttabelle |
+| **SL Select KV** | SLS\_Kollektivversicherung |
+| **SL Select Hypotheken** | SLS\_SL\_Hypotheken |
+| **SL Select Immobilien** | SLS\_Vermittlung Immobilien-DL |
+| **Vaudoise AD** | AD\_Vaudoise |
+| **Vaudoise BV** | Vaudoise\_Berufliche\_Vorsorge (BV) |
 
 ## ARE-relevante Regeln
 
@@ -130,21 +136,26 @@ Ordner: `2026 02 24_Broker Vergütungsreglemente/` — **NEU seit 24.02.2026**
 
 *   Entschädigungsvereinbarung Immobilien
 
-### Swiss Life Select Vergütungsreglemente (0 Dateien)
+### Swiss Life Select Vergütungsreglemente (5 DOCX)
 
-Ordner: `2026 02 26_Swiss Life Select Vergütungsreglemente/` — **NEU seit 26.02.2026**
-
-> Noch leer - Reglemente ausstehend.
-
-### Vaudoise Vergütungsreglemente (1 PDF)
-
-Ordner: `2026 02 26_Vaudoise Vergütungsreglemente/` — **NEU seit 26.02.2026**
+Ordner: `2026 02 26_Swiss Life Select Vergütungsreglemente/`
 
 | Datei | Gültig ab |
 | --- | --- |
-| AD\_Vaudoise\_dt\_gültig\_ab\_01.11.2025 | 01.11.2025 |
+| SLS\_Vergütungsvereinbarung\_EV\_de | 01.12.2025 |
+| SLS\_Anhang A zur VV EV - Produkttabelle\_de | 01.12.2025 |
+| SLS\_Kollektivversicherung\_dt | 01.10.2024 |
+| SLS\_SL\_Hypotheken\_dt | 01.01.2024 |
+| SLS\_Vermittlung Immobilien-Dienstleistung\_dt | 01.01.2024 |
 
-> Verschoben aus dem AD-Ordner, da Vaudoise einen eigenen Vertriebskanal darstellt.
+### Vaudoise Vergütungsreglemente (1 PDF, 1 DOCX)
+
+Ordner: `2026 02 26_Vaudoise Vergütungsreglemente/`
+
+| Datei | Format | Gültig ab |
+| --- | --- | --- |
+| AD\_Vaudoise\_dt\_gültig\_ab\_01.11.2025 | PDF | 01.11.2025 |
+| Vaudoise\_Berufliche\_Vorsorge\_(BV)\_dt\_gültig\_ab\_01.01.2024 | DOCX | 01.01.2024 |
 
 ## Siehe auch
 
