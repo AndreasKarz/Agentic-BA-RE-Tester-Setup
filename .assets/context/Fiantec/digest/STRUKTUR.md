@@ -1,6 +1,6 @@
 ﻿# FiANTEC Context — Ordnerstruktur
 
-**Stand:** 2026-02-27 | **Dateien:** 9'651 | **Grösse:** ~9.7 GB
+**Stand:** 2026-03-04 | **Dateien:** 9'651 | **Grösse:** ~9.7 GB
 
 ```
 .assets/context/Fiantec/

@@ -1,6 +1,6 @@
 ﻿# FiANTEC Context Catalog
 
-**Last Updated:** 2026-02-27  
+**Last Updated:** 2026-03-04  
 **Source:** `.assets/context/Fiantec/RAW`  
 **Ansatz:** Originaldateien (keine Konvertierung zu Markdown)
 
@@ -40,16 +40,16 @@
 
 | Format | Anzahl | Vorkommen |
 | --- | --- | --- |
-| java | 2'036 | 01_Handbücher, 04_Testmanagement |
-| feature | 1'025 | 04_Testmanagement |
-| cs | 795 | 04_Testmanagement |
-| dll | 711 | 01_Handbücher, 04_Testmanagement |
-| docx | 607 | 01_Handbücher, 02_Change Management, 03_Reglemente, 04_Testmanagement |
-| xlsx | 564 | 01_Handbücher, 02_Change Management, 04_Testmanagement |
-| txt | 526 | 01_Handbücher, 02_Change Management, 04_Testmanagement |
-| xls | 463 | 01_Handbücher, 02_Change Management |
-| pdf | 403 | 01_Handbücher, 02_Change Management, 03_Reglemente, 04_Testmanagement, 05_FiANTEC_v4_Handbuch |
-| doc | 320 | 01_Handbücher, 02_Change Management |
+| java | 2'036 | er, gement |
+| feature | 1'025 | gement |
+| cs | 795 | gement |
+| dll | 711 | er, gement |
+| docx | 607 | anagement, er, gement, te |
+| xlsx | 564 | anagement, er, gement |
+| txt | 526 | anagement, er, gement |
+| xls | 463 | anagement, er |
+| pdf | 403 | anagement, er, gement, te, v4_Handbuch |
+| doc | 320 | anagement, er |
 
 > **Hinweis:** Code-Artefakte (java, feature, cs, dll) machen ~69% aller 9'651 Dateien aus (davon 6'628 in SOAP UI/SpecFlow), sind aber für die ARE-Arbeit weniger relevant. Die Metrik **Originaldateien** (3'023) in der Zusammenfassung zählt deshalb nur business-relevante Dokumente. Der vollständige Verzeichnisbaum steht in [STRUKTUR.md](STRUKTUR.md).
 

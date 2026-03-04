@@ -1,6 +1,6 @@
 ﻿# 01 Handbücher
 
-**RAW:** `RAW/01_Handbücher` | **Files:** 1'953 | **Size:** ~8.6 GB | **Letzte Aktualisierung:** 2026-02-27
+**RAW:** `RAW/01_Handbücher` | **Files:** 1'953 | **Size:** ~8.6 GB | **Letzte Aktualisierung:** 2026-03-04
 
 **Stichwörter:** Architektur, Datenmodell, Referenzdaten, Schnittstellen, SOAP, REST, WSDL, XSD, Webservice, Vertriebsstruktur, Vertriebsorganisation, Geschäftspartner, Vermittler, Geschäftslogik, IAM, Berechtigungen, Konfiguration, GUI-Dokumentation, Masken, Prozessübersicht, BPMN, ADONIS, Camunda, Verträge, SLA, Vorlagen, Templates, Visio, Zeitscheiben, Historisierung, ProvFia WebClient, Recherchedesigner
 
@@ -75,8 +75,8 @@ FiANTEC verwaltet vier Kern-Domänen. Die folgende Tabelle zeigt, **wo im RAW** 
 
 | Paket | Version | Beschreibung | RAW-Pfad |
 | --- | --- | --- | --- |
-| **ProvFia-wsdl** | 2025.11.001 | SOAP-Services für Provisionierung | `04 Schnittstellen/WSDL/` |
-| **VSDS-wsdl** | 2025.11.001 | SOAP-Services Legacy-Schnittstelle | `04 Schnittstellen/WSDL/` |
+| **ProvFia-wsdl** | 2025.11.002 | SOAP-Services für Provisionierung | `04 Schnittstellen/WSDL/` |
+| **VSDS-wsdl** | 2025.11.002 | SOAP-Services Legacy-Schnittstelle | `04 Schnittstellen/WSDL/` |
 
 ### Spezifische Interface-Dokumentation
 
