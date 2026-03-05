@@ -134,6 +134,7 @@
 | **PF** | Portfolio / Produktfaktor |
 | **PP** | Zahlart EV: Periodische Prämie |
 | **EE** | Zahlart EV: Einmaleinlage |
+| **SG** | Sparguthaben |
 | **PSF** | Portfoliostrategiefaktor |
 | **TP** | Tarifprämie |
 | **UVG** | Unfallversicherung |
@@ -141,6 +142,7 @@
 | **VJE** | Versicherungsjahreseinkauf |
 | **VNA** | Versicherungsnehmer A (= Hauptversicherungsnehmer) |
 | **VTNR** | Vertragsnummer |
+| **ZZ** | Zuzahlungen (zusätzliche Einlage in bestehenden Vertrag, §2.4 AD EV-Reglement) |
 
 ## Bonusarten & Entschädigung
 
