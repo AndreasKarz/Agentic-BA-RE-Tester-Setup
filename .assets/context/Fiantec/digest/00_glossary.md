@@ -57,6 +57,7 @@
 | **Aufbauorga** | Hierarchische Struktur der Vertriebsorganisation |
 | **Gebietselement** | Geografisches Element in VORP (Orte, Strassen, PLZ) |
 | **Bündelbearbeitung** | Massenänderung mehrerer Datensätze gleichzeitig |
+| **ERADE** | ERADE-Script - automatisierter CSV-Massenimport in FiANTEC (Schreibweise: immer ERADE in Grossbuchstaben) |
 
 ## Provisionsarten
 
@@ -114,6 +115,7 @@
 | **BROK** | Broker |
 | **SLS** | Swiss Life Select - In-House-Broker (ex-AWD, 2014 übernommen), eigene Vergütungsreglemente |
 | **AWD** | Allgemeiner Wirtschaftsdienst - Vorgängerorganisation von Swiss Life Select |
+| **SSNT** | Schnittstelle |
 | **SSU** | Sales Support Unternehmenskunden |
 
 ## Versicherungs-Fachbegriffe
