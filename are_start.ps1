@@ -28,6 +28,26 @@ $newPath = "$cleanedPath;$($pathsToAdd -join ';')"
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + $newPath
 Write-Host "Node.js PATH bereinigt: $($pathsToAdd -join '; ')"
 
+# Azure CLI PATH bereinigen und korrekten Pfad setzen
+Write-Host "Bereinige Azure CLI PATH..."
+$azureCliBasePath = Join-Path $env:USERPROFILE "Apps\azure-cli"
+$azureCliBinPath = Join-Path $azureCliBasePath "bin"
+$azureCliPathsToAdd = @($azureCliBasePath, $azureCliBinPath)
+
+$currentUserPath = [Environment]::GetEnvironmentVariable('Path', 'User')
+$pathEntries = $currentUserPath -split ';' | Where-Object { $_.Trim() -ne '' }
+$cleanedEntries = $pathEntries | Where-Object {
+    $entry = $_.Trim().TrimEnd('\').ToLower()
+    -not ($entry -like '*azure-cli*' -or $entry -like '*azure cli*')
+}
+$cleanedPath = ($cleanedEntries -join ';')
+
+$newAzurePath = "$cleanedPath;$($azureCliPathsToAdd -join ';')"
+[Environment]::SetEnvironmentVariable('Path', $newAzurePath, 'User')
+
+$env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + $newAzurePath
+Write-Host "Azure CLI PATH bereinigt: $($azureCliPathsToAdd -join '; ')"
+
 # CA-Zertifikat Umgebungsvariablen konfigurieren
 Write-Host "Konfiguriere CA-Zertifikat Umgebungsvariablen..."
 
