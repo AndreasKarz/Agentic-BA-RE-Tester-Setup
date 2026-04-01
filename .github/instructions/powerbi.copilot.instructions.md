@@ -1,7 +1,6 @@
 ---
 name: 'PowerBI Konventionen'
 description: 'Namenskonventionen, Formatierungsstandards und Projektregeln für PowerBI-Reports, DAX-Measures und Power-Query-Abfragen.'
-applyTo: '**'
 ---
 
 # PowerBI Konventionen

@@ -1,5 +1,6 @@
 ---
-## applyTo: '**'
+name: 'Playwright and E2E'
+description: 'Use these instructions for Playwright, E2E test automation, selector strategy and POM structure.'
 ---
 # Senior Test Automation Expert & Playwright Specialist
 
