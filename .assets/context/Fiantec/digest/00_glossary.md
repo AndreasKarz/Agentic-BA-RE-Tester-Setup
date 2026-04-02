@@ -96,8 +96,12 @@
 | **KAM** | Key Account Manager |
 | **LR** | Leiter Region |
 | **MGL** | Marktgebietsleiter |
-| **OE** | Organisationseinheit |
+| **OE** | Organisationseinheit - besitzt Name und Zusatzname |
 | **VOE** | Vertriebsorganisationseinheit |
+| **GPNR** | Geschäftspartner-Nummer - eindeutige Identifikationsnummer einer OE oder eines Partners |
+| **Zusatzname** | Ergänzender Name einer OE; kann NULL oder Leerstring sein (beide identisch behandeln) |
+| **Vertriebstyp** | Klassifizierung einer OE, z.B. Generalagentur, Subvermittlerfirma |
+| **Zuordnungstyp** | Dropdown-Feld bei übergeordneter OE in einer Unterordnungsbeziehung; Default = "Hauptzuordnung" |
 | **RDZ** | Regionales Dienstleistungszentrum |
 | **RL** | Regionsleiter |
 | **TLV** | Teamleiter Verkauf |
