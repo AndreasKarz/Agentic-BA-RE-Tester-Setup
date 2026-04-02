@@ -4,13 +4,13 @@
 
 ## Namenskonvention
 
-- Format: `R<YYYY>.<MM>` (z.B. R2024.07)
-- Patches: `R<YYYY>.<MM>_Patch<YYYYMMDD>`
+*   Format: `R<YYYY>.<MM>` (z.B. R2024.07)
+*   Patches: `R<YYYY>.<MM>_Patch<YYYYMMDD>`
 
 ## Release-Typen
 
 | Typ | Kadenz | Inhalt |
-|-----|--------|--------|
+| --- | --- | --- |
 | **Major Release** | 6 pro Jahr (alle zwei Monate) | Neue Features, Erweiterungen |
 | **Patch/Hotfix** | Zwischen Releases, nach Bedarf | Kritische Fixes |
 
@@ -18,8 +18,8 @@
 
 ## Zertifizierungsprozess
 
-1. Entwicklung abgeschlossen
-2. Testing bestanden (alle Stufen)
-3. Business-Freigabe (UAT-Zertifikat)
-4. Produktionsabnahme (PAV-Zertifikat)
-5. Produktivsetzung + Release Bulletin
+1.  Entwicklung abgeschlossen
+2.  Testing bestanden (alle Stufen)
+3.  Business-Freigabe (UAT-Zertifikat)
+4.  Produktionsabnahme (PAV-Zertifikat)
+5.  Produktivsetzung + Release Bulletin

@@ -1,4 +1,4 @@
-﻿# 03 Reglemente
+# 03 Reglemente
 
 **RAW:** `RAW/03_Reglemente` | **Files:** 41 | **Size:** ~10.3 MB | **Letzte Aktualisierung:** 2026-03-04
 
@@ -10,10 +10,10 @@
 
 | Ordner | Dateien | Kanal | Inhalt |
 | --- | --- | --- | --- |
-| `2026 02 04_Aussendienst Vergütungsreglemente/` | 24 PDF     | AD | AD/IB-Reglemente, Entschädigungshandbücher, Sonderdokumente |
-| `2026 02 24_Broker Vergütungsreglemente/` | 10 DOCX     | Broker | Entschädigungsvereinbarungen (EV) für Broker/Makler |
-| `2026 02 26_Swiss Life Select Vergütungsreglemente/` | 5 DOCX     | SL Select | Vergütungsvereinbarungen EV, Kollektivversicherung, Hypotheken, Immobilien |
-| `2026 02 26_Vaudoise Vergütungsreglemente/` | 1 DOCX, 1 PDF     | Vaudoise | Vergütungsreglemente AD + BV |
+| `2026 02 04_Aussendienst Vergütungsreglemente/` | 24 PDF | AD | AD/IB-Reglemente, Entschädigungshandbücher, Sonderdokumente |
+| `2026 02 24_Broker Vergütungsreglemente/` | 10 DOCX | Broker | Entschädigungsvereinbarungen (EV) für Broker/Makler |
+| `2026 02 26_Swiss Life Select Vergütungsreglemente/` | 5 DOCX | SL Select | Vergütungsvereinbarungen EV, Kollektivversicherung, Hypotheken, Immobilien |
+| `2026 02 26_Vaudoise Vergütungsreglemente/` | 1 DOCX, 1 PDF | Vaudoise | Vergütungsreglemente AD + BV |
 
 ## Dokumenttypen
 
@@ -88,7 +88,7 @@ Ordner: `2026 02 04_Aussendienst Vergütungsreglemente/`
 | AD\_Sanitas | 01.12.2025 |
 | AD\_SLL-CC\_SLPPLI | 01.11.2025 |
 | AD\_SSO | 01.11.2025 |
-| ~~AD\_Vaudoise~~ → verschoben nach Vaudoise-Ordner | — |
+| ~AD\_Vaudoise~ → verschoben nach Vaudoise-Ordner | — |
 | AD\_Vermittlung Swiss Life Wealth Management | 01.11.2025 |
 | Reglement zum EuV VB | 01.01.2025 |
 

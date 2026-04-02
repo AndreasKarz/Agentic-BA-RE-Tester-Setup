@@ -1,4 +1,4 @@
-﻿# 06 Test mit Bildern
+# 06 Test mit Bildern
 
 **RAW:** `RAW/06_test_mit_bildern` | **Status:** Aktiv (wird laufend befüllt) | **Letzte Aktualisierung:** 2026-03-04
 
@@ -18,6 +18,6 @@ Sammlung von **FiANTEC-GUI-Screenshots** — Masken, Dialoge, Menüs, Fehlermeld
 
 ## Nutzung durch ARE
 
-- Screenshots dienen als **visuelle Referenz** bei Testschritt-Beschreibungen
-- Maskenbezeichnungen und Feldnamen können aus Screenshots extrahiert werden
-- Verknüpfung mit Handbuch-Kapiteln (→ [05 FiANTEC v4 Handbuch](05_FiANTEC_v4_Handbuch.md))
+*   Screenshots dienen als **visuelle Referenz** bei Testschritt-Beschreibungen
+*   Maskenbezeichnungen und Feldnamen können aus Screenshots extrahiert werden
+*   Verknüpfung mit Handbuch-Kapiteln (→ [05 FiANTEC v4 Handbuch](05_FiANTEC_v4_Handbuch.md))

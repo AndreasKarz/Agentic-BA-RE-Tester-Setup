@@ -1,4 +1,4 @@
-﻿# FiANTEC Context Catalog
+# FiANTEC Context Catalog
 
 **Last Updated:** 2026-03-04  
 **Source:** `.assets/context/Fiantec/RAW`  
@@ -48,7 +48,7 @@
 | xlsx | 564 | anagement, er, gement |
 | txt | 526 | anagement, er, gement |
 | xls | 463 | anagement, er |
-| pdf | 403 | anagement, er, gement, te, v4_Handbuch |
+| pdf | 403 | anagement, er, gement, te, v4\_Handbuch |
 | doc | 320 | anagement, er |
 
 > **Hinweis:** Code-Artefakte (java, feature, cs, dll) machen ~69% aller 9'651 Dateien aus (davon 6'628 in SOAP UI/SpecFlow), sind aber für die ARE-Arbeit weniger relevant. Die Metrik **Originaldateien** (3'023) in der Zusammenfassung zählt deshalb nur business-relevante Dokumente. Der vollständige Verzeichnisbaum steht in [STRUKTUR.md](STRUKTUR.md).

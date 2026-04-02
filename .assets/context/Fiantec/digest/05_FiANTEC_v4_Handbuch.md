@@ -1,4 +1,4 @@
-﻿# 05 FiANTEC v4 Handbuch
+# 05 FiANTEC v4 Handbuch
 
 **RAW:** `RAW/05_FiANTEC_v4_Handbuch` | **Files:** 1 | **Size:** ~31.5 MB | **Letzte Aktualisierung:** 2026-03-04
 
@@ -15,7 +15,7 @@ Einführung, Systemstart, Navigation im GUI.
 ### Kap. 4: Stammdaten
 
 | Objekt | Beschreibung |
-|--------|-------------|
+| --- | --- |
 | Geschäftspartner | Zentrale Entität — Vermittler, GA, Makler |
 | Vertriebsvereinbarung | Vertragsverhältnis GP ↔ Unternehmen |
 | Vertriebsgruppe | Hierarchische Gruppierung von GP |
@@ -27,9 +27,9 @@ Einführung, Systemstart, Navigation im GUI.
 
 ### Kap. 5–7: Provisionslogik
 
-- **Provisionsberechnung** — Regelbasiert über Provisionssätze, Satzfinder und Berechnungsformeln
-- **Provisionsbuchung** — Buchungssätze, Stornobehandlung, Bonifikation
-- **Provisionsauszahlung** — Auszahlungsläufe, Kontenabstimmung
+*   **Provisionsberechnung** — Regelbasiert über Provisionssätze, Satzfinder und Berechnungsformeln
+*   **Provisionsbuchung** — Buchungssätze, Stornobehandlung, Bonifikation
+*   **Provisionsauszahlung** — Auszahlungsläufe, Kontenabstimmung
 
 ### Kap. 8: Abrechnungen & Reporting
 
@@ -45,10 +45,10 @@ Benutzerverwaltung, Systemkonfiguration, Logging
 
 ## Schlüsselkonzepte
 
-- **Funktionsumfang:** Stammdaten, Provisionsmotor, Schnittstellen, Reporting, Administration
-- **Zeitscheiben:** Historisierung über gültig-ab/gültig-bis — Änderungen erzeugen neue Zeitscheiben statt Überschreibung
-- **Recherchen-Typen:** Standardrecherchen (vordefiniert) und Benutzerrecherchen (frei konfigurierbar via Recherchedesigner)
+*   **Funktionsumfang:** Stammdaten, Provisionsmotor, Schnittstellen, Reporting, Administration
+*   **Zeitscheiben:** Historisierung über gültig-ab/gültig-bis — Änderungen erzeugen neue Zeitscheiben statt Überschreibung
+*   **Recherchen-Typen:** Standardrecherchen (vordefiniert) und Benutzerrecherchen (frei konfigurierbar via Recherchedesigner)
 
 ## Siehe auch
 
-- [06 Test mit Bildern](06_test_mit_bildern.md) — GUI-Screenshots für KI-gestützte Testfälle
+*   [06 Test mit Bildern](06_test_mit_bildern.md) — GUI-Screenshots für KI-gestützte Testfälle
