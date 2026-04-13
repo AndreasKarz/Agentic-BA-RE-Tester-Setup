@@ -60,10 +60,10 @@ export default defineConfig({
       use: {
         ...devices['Desktop Edge'],
         channel: 'msedge',
+        headless: false,
         viewport: { width: 1440, height: 900 },
         launchOptions: {
-          args: [],
-          // Do NOT use incognito — SSO plugin is disabled in InPrivate mode
+          args: ['--start-maximized', '--no-default-browser-check', '--no-first-run'],
         },
       },
     },
