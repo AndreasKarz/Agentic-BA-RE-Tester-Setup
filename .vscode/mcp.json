@@ -28,7 +28,9 @@
     "playwright": {
       "command": "npx.cmd",
       "args": [
-        "@playwright/mcp@latest"
+        "@playwright/mcp@latest",
+        "--browser", 
+        "chromium"
       ],
       "type": "stdio"
     },

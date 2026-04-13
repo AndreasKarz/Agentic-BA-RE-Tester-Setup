@@ -53,20 +53,6 @@ export default defineConfig({
         viewport: { width: 1440, height: 900 }
       },
     },
-
-    /* Edge with installed browser version and normal mode (no incognito) for SSO plugin support */
-    {
-      name: 'edge',
-      use: {
-        ...devices['Desktop Edge'],
-        channel: 'msedge',
-        headless: false,
-        viewport: { width: 1440, height: 900 },
-        launchOptions: {
-          args: ['--start-maximized', '--no-default-browser-check', '--no-first-run'],
-        },
-      },
-    },
   ],
 
   /* Run your local dev server before starting the tests */
