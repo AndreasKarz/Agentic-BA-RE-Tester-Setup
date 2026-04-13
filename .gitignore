@@ -417,6 +417,7 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+.temp/
 **/.specstory
 **/package-lock.json
 /.github/userprompts/*
@@ -435,6 +436,7 @@ FodyWeavers.xsd
 /.github/instructions/fiantec.project.copilot.instructions.md
 /scripts
 /test-results
-/playwright-report
+playwright-report/
+.playwright-mcp/
 /tests
 /.contextstream
