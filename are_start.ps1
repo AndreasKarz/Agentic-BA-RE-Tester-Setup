@@ -96,6 +96,10 @@ git checkout main 2>$null
 git reset --hard origin/main
 git pull --force
 
+# Abhängigkeiten installieren und Playwright-Browser aktualisieren
+Write-Host "Installiere Abhängigkeiten und Playwright-Browser..."
+npm install
+
 # Bei Azure anmelden
 Write-Output "" | & az login --allow-no-subscriptions
 

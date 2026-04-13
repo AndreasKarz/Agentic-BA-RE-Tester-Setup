@@ -12,7 +12,8 @@
         "setup:pdf2img": "cd .mcp/pdf2img && npm install",
         "setup:asciidoc": "cd .mcp/asciidoc && npm install",
         "setup:all": "npm run setup:pdf2img && npm run setup:asciidoc",
-        "postinstall": "npm run setup:all"
+        "setup:browsers": "npx playwright install chromium && npx @playwright/mcp install-browser chrome-for-testing",
+        "postinstall": "npm run setup:all && npm run setup:browsers"
     },
     "devDependencies": {
         "@playwright/test": "^1.56.1",
