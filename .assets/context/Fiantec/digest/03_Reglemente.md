@@ -1,6 +1,6 @@
-# 03 Reglemente
+﻿# 03 Reglemente
 
-**RAW:** `RAW/03_Reglemente` | **Files:** 41 | **Size:** ~10.3 MB | **Letzte Aktualisierung:** 2026-03-04
+**RAW:** `RAW/03_Reglemente` | **Files:** 41 | **Size:** ~10.3 MB | **Letzte Aktualisierung:** 2026-04-02
 
 **Stichwörter:** Provision, Provisionssatz, Vergütung, Entschädigung, Bonus, Storno, Reglement, Aussendienst, Innenbetrieb, Einzelleben, Kollektivleben, BVG, Nicht-Leben, Sach, Cross-Border, Fondslösungen, Hypotheken, Krankenversicherung, Sparte, RAD, Reorganisation, Rundschreiben, Gültigkeitsdatum, Berechnungsformel, Satzstruktur
 
@@ -10,10 +10,10 @@
 
 | Ordner | Dateien | Kanal | Inhalt |
 | --- | --- | --- | --- |
-| `2026 02 04_Aussendienst Vergütungsreglemente/` | 24 PDF | AD | AD/IB-Reglemente, Entschädigungshandbücher, Sonderdokumente |
-| `2026 02 24_Broker Vergütungsreglemente/` | 10 DOCX | Broker | Entschädigungsvereinbarungen (EV) für Broker/Makler |
-| `2026 02 26_Swiss Life Select Vergütungsreglemente/` | 5 DOCX | SL Select | Vergütungsvereinbarungen EV, Kollektivversicherung, Hypotheken, Immobilien |
-| `2026 02 26_Vaudoise Vergütungsreglemente/` | 1 DOCX, 1 PDF | Vaudoise | Vergütungsreglemente AD + BV |
+| `2026 02 04_Aussendienst Vergütungsreglemente/` | 24 PDF  | AD | AD/IB-Reglemente, Entschädigungshandbücher, Sonderdokumente |
+| `2026 02 24_Broker Vergütungsreglemente/` | 10 DOCX  | Broker | Entschädigungsvereinbarungen (EV) für Broker/Makler |
+| `2026 02 26_Swiss Life Select Vergütungsreglemente/` | 5 DOCX  | SL Select | Vergütungsvereinbarungen EV, Kollektivversicherung, Hypotheken, Immobilien |
+| `2026 02 26_Vaudoise Vergütungsreglemente/` | 1 DOCX, 1 PDF  | Vaudoise | Vergütungsreglemente AD + BV |
 
 ## Dokumenttypen
 

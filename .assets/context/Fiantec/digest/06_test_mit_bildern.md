@@ -1,6 +1,6 @@
-# 06 Test mit Bildern
+﻿# 06 Test mit Bildern
 
-**RAW:** `RAW/06_test_mit_bildern` | **Status:** Aktiv (wird laufend befüllt) | **Letzte Aktualisierung:** 2026-03-04
+**RAW:** `RAW/06_test_mit_bildern` | **Status:** Aktiv (wird laufend befüllt) | **Letzte Aktualisierung:** 2026-04-02
 
 **Stichwörter:** Screenshot, GUI, Maske, Dialog, Menü, Fehlermeldung, Oberfläche, Bildschirm, Feldname, Maskenbezeichnung, visuell
 
