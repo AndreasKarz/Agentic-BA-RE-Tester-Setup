@@ -16,30 +16,30 @@
         "postinstall": "npm run setup:all && npm run setup:browsers"
     },
     "devDependencies": {
+        "@azure-devops/mcp": "2.7.0",
+        "@azure/msal-node": "5.1.5",
         "@playwright/test": "^1.59.1",
         "@types/node": "^25.6.0",
-        "typescript": "^6.0.2",
-        "@azure-devops/mcp": "2.5.0",
-        "@azure/msal-node": "5.1.2"
+        "typescript": "^6.0.3"
     },
     "dependencies": {
         "@modelcontextprotocol/sdk": "^1.29.0",
         "@modelcontextprotocol/server-sequential-thinking": "^2025.12.18",
         "canvas": "^3.2.3",
-        "fs-extra": "^11.3.4",
+        "fs-extra": "^11.3.5",
         "jimp": "^1.6.1",
+        "mongodb-mcp-server": "^1.10.0",
         "mssql-mcp-server": "^1.2.2",
-        "mongodb-mcp-server": "^1.9.0",
         "path": "^0.12.7",
         "pdf-lib": "^1.17.1",
         "pdf-parse": "^2.4.5",
         "pdf-poppler": "^0.2.3",
-        "pdf2json": "^4.0.2",
+        "pdf2json": "^4.0.3",
         "pdf2pic": "^3.2.0",
-        "pdfjs-dist": "^5.6.205",
-        "puppeteer": "^24.40.0",
+        "pdfjs-dist": "^5.7.284",
+        "puppeteer": "^24.43.0",
         "sharp": "^0.34.5",
-        "uuid": "^13.0.0"
+        "uuid": "^14.0.0"
     },
     "engines": {
         "node": ">=18"
