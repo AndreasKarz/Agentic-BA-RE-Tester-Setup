@@ -1,6 +1,6 @@
 ---
 agent: 'agent'
-model: 'Auto'
+model: 'GPT-5.5'
 tools: ['vscode', 'execute', 'read', 'agent', 'edit', 'search', 'web', 'ado/*', 'memory/*', 'sequential-thinking/*', 'todo']
 description: Aggregate Support Tickets from CSV to JSON knowledge graph with ADO enrichment.
 ---
