@@ -7,6 +7,16 @@
     }
   ],
   "servers": {
+    "memory": {
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory@latest"
+      ],
+      "env": {
+        "MEMORY_FILE_PATH": "${env:USERPROFILE}\\.vscode-insiders\\mcp-memory.json"
+      }
+    },
     "ado": {
       "type": "stdio",
       "command": "npx.cmd",
@@ -25,15 +35,6 @@
         "@modelcontextprotocol/server-sequential-thinking"
       ]
     },
-    "playwright": {
-      "command": "npx.cmd",
-      "args": [
-        "@playwright/mcp@latest",
-        "--browser", 
-        "chromium"
-      ],
-      "type": "stdio"
-    },
     "microsoft-docs": {
       "command": "npx",
       "args": [
@@ -42,15 +43,14 @@
         "https://learn.microsoft.com/api/mcp"
       ]
     },
-    "memory": {
+    "playwright": {
       "command": "npx.cmd",
       "args": [
-        "-y",
-        "@modelcontextprotocol/server-memory@latest"
+        "@playwright/mcp@latest",
+        "--browser", 
+        "chromium"
       ],
-      "env": {
-        "MEMORY_FILE_PATH": "${env:USERPROFILE}\\.vscode-insiders\\mcp-memory.json"
-      }
+      "type": "stdio"
     },
     "MongoDB": {
       "command": "npx.cmd",
