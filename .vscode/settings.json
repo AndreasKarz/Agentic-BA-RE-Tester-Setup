@@ -27,24 +27,6 @@
         ".github/userprompts": true
     },
     "github.copilot.chat.codeGeneration.useInstructionFiles": true,
-    "chat.mcp.serverSampling": {
-        "ARE/.vscode/mcp.json: ado": {
-            "allowedModels": [
-                "copilot/gpt-4.1",
-                "copilot/auto",
-                "copilot/claude-3.5-sonnet",
-                "copilot/claude-3.7-sonnet",
-                "copilot/claude-3.7-sonnet-thought",
-                "copilot/claude-sonnet-4",
-                "copilot/gemini-2.0-flash-001",
-                "copilot/gemini-2.5-pro",
-                "copilot/gpt-4o",
-                "copilot/gpt-5",
-                "copilot/o3-mini",
-                "copilot/o4-mini"
-            ]
-        }
-    },
     "chat.mcp.access": "all",
     "chat.mcp.discovery.enabled": {
         "claude-desktop": true,
@@ -54,7 +36,7 @@
     },
     "chat.mcp.autostart": "newAndOutdated",
     "chat.tools.terminal.autoApprove": {
-        "/^git (status|show\b.*)$/": true,
+        "/^git (status|show\\b.*)$/": true,
         "intent": true,
         "core_get_work_item": true,
         "wit_list_work_item_comments": true,
@@ -126,8 +108,6 @@
         "search_workitem": true
     },
     "workbench.editorAssociations": {
-        "*.md": "markdownEditor.customEditor"
-    },
-    "markdown-wysiwyg.enablePreview": true,
-    "markdown-wysiwyg.autoSave": true
+        "*.md": "default"
+    }
 }
