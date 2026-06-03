@@ -25,7 +25,13 @@
         "@azure-devops/mcp@latest",
         "${input:adoOrganization}",
         "--authentication",
-        "azcli"
+        "azcli",
+        "-d",
+        "core",
+        "work-items",
+        "test-plans",
+        "wiki",
+        "work"
       ]
     },
     "sequential-thinking": {
@@ -47,7 +53,7 @@
       "command": "npx.cmd",
       "args": [
         "@playwright/mcp@latest",
-        "--browser", 
+        "--browser",
         "chromium"
       ],
       "type": "stdio"
