@@ -35,8 +35,12 @@
       "type": "stdio"
     },
     "microsoft-docs": {
-      "type": "http",
-      "url": "https://learn.microsoft.com/api/mcp"
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://learn.microsoft.com/api/mcp"
+      ]
     },
     "memory": {
       "command": "npx.cmd",
@@ -56,22 +60,6 @@
         "--connectionString",
         "${env:MDB_MCP_CONNECTION_STRING}"
       ]
-    },
-    "pdf2img": {
-      "type": "stdio",
-      "command": "node",
-      "args": [
-        ".mcp\\pdf2img\\index.js"
-      ],
-      "cwd": "${workspaceFolder}"
-    },
-    "asciidoc": {
-      "type": "stdio",
-      "command": "node",
-      "args": [
-        ".mcp\\asciidoc\\index.js"
-      ],
-      "cwd": "${workspaceFolder}"
     },
     "mssql": {
       "command": "npx.cmd",
