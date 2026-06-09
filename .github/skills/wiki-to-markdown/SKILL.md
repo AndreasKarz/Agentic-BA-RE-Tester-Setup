@@ -12,7 +12,7 @@ description: >
 # Wiki → Markdown Skill
 
 Konvertiert eine ADO-Wiki-Seite in eine strukturierte Markdown-Datei nach dem
-Goldstandard [`wiki-md/CTRM/ctrm-feature-process.md`](../../../../wiki-md/CTRM/ctrm-feature-process.md).
+Goldstandard [`wiki-md/CTRM/ctrm-feature-process.md`](../../../wiki-md/CTRM/ctrm-feature-process.md).
 
 ---
 
@@ -41,10 +41,13 @@ Jedes Bild via `view_image` ansehen — dann nach dieser Tabelle entscheiden:
 1. ADO-Wiki-URL parsen → `org / project / wiki / pageId / slug` extrahieren.
 2. `slug` = kebab-case-lowercase aus Seitentitel (`CTRM-PBI-Process` → `ctrm-pbi-process`).
 3. Ausgabepfade definieren:
-   - Markdown: `wiki-md/<project-lowercase>/<slug>.md`
-   - Assets: `wiki-md/<project-lowercase>/assets/<slug>/NN-name.png`
-   - Temp: `.temp/wiki-import/<slug>/`
-4. Ordner anlegen: `assets/<slug>/` und `.temp/wiki-import/<slug>/`.
+   - Markdown: `.temp/wiki-converted/<slug>.md`
+   - Assets: `.temp/wiki-converted/assets/<slug>/NN-name.png`
+   - Download-Temp: `.temp/wiki-import/<slug>/`
+4. Ordner anlegen: `.temp/wiki-converted/assets/<slug>/` und `.temp/wiki-import/<slug>/`.
+
+> **Hinweis:** `.temp/` ist gitignoriert — generierte Artefakte tauchen nicht im Repository auf.
+> Die Dateien sind für Review und als Quelle für das ADO-Wiki-Upload bestimmt.
 
 ### Phase 1 — Seite laden
 
@@ -52,15 +55,15 @@ Jedes Bild via `view_image` ansehen — dann nach dieser Tabelle entscheiden:
 2. Alle `/.attachments/Filename-GUID.ext`-Referenzen im Roh-Markdown sammeln.
 3. Seitenstruktur (H1, H2, H3) und Bild-Positionen kartieren.
 
-> Technische Details zu ADO-Toolaufruf und Attachment-URLs: **[extraction.md](extraction.md)**
+> Technische Details zu ADO-Toolaufruf und Attachment-URLs: **[extraction.md](references/extraction.md)**
 
 ### Phase 2 — Bilder laden
 
 1. Jeden Attachment-Dateinamen nach `.temp/wiki-import/<slug>/` laden.
 2. **Smoke-Test** mit erstem Bild: Datei >0 Bytes? → ja: Batch fortsetzen; nein: Playwright-Fallback.
-3. Geladene Bilder nach `wiki-md/<project-lowercase>/assets/<slug>/NN-name.png` kopieren.
+3. Geladene Bilder nach `.temp/wiki-converted/assets/<slug>/NN-name.png` kopieren.
 
-> Auth-Strategie (az rest + Access Token) und Playwright-SAML-Fallback: **[extraction.md](extraction.md)**
+> Auth-Strategie (az rest + Access Token) und Playwright-SAML-Fallback: **[extraction.md](references/extraction.md)**
 
 ### Phase 3 — Klassifizieren und verstehen
 
@@ -72,7 +75,7 @@ Jedes Bild via `view_image` ansehen — dann nach dieser Tabelle entscheiden:
 
 ### Phase 4 — Markdown schreiben
 
-Exakte Struktur nach [output-template.md](output-template.md). Kurzübersicht:
+Exakte Struktur nach [output-template.md](references/output-template.md). Kurzübersicht:
 
 - **Sprache:** Deutsch (Schweiz), kein ß, kein Gendern, Datum DD.MM.YYYY
 - **H1:** Seitentitel
@@ -81,21 +84,23 @@ Exakte Struktur nach [output-template.md](output-template.md). Kurzübersicht:
 - **Überblick-Diagramm:** Prozessdiagramm → `Mermaid stateDiagram-v2` oder `flowchart LR`
 - **Pro Sektion:**
   1. `## Phase N — Titel` (ggf. Meta-Blockquote wiederholen)
-  2. `![Alt-Text](assets/<slug>/NN-name.png)`
+  2. `![Alt-Text](assets/<slug>/NN-name.png)` — lokaler Pfad relativ zur `.md`-Datei
   3. `**Screenshot-Erläuterung:**` Legende
   4. Aktivitäten-Tabelle `| Nr. | Pflicht | Aktivität |`
   5. Hinweis-Blockquotes
+
+> Für das **ADO-Wiki-Upload** (Phase 4b) werden Bildpfade zu `/.attachments/<GUID>.png` umgeschrieben.
 
 ### Phase 5 — Validieren und Cleanup
 
 | Check | Kriterium |
 |-------|-----------|
-| Asset-Referenzen | Jedes `![…](assets/…)` zeigt auf existierende Datei |
+| Asset-Referenzen | Jedes `![…](assets/…)` zeigt auf existierende Datei in `.temp/wiki-converted/assets/<slug>/` |
 | Alt-Text | Jedes Bild: Alt-Text ≥3 Sätze + `**Screenshot-Erläuterung:**` |
 | Kein Bild für Diagramme | Kein Prozessdiagramm mehr als PNG vorhanden |
 | Sprache | Kein ß, kein Gendern |
-| Temp | `.temp/wiki-import/<slug>/` nach erfolgreichem Copy leeren |
-| Report | Kurze Zusammenfassung: Bilder behalten / umgewandelt / gelöscht |
+| Download-Temp | `.temp/wiki-import/<slug>/` nach erfolgreichem Copy leeren |
+| Report | Kurze Zusammenfassung: Bilder behalten / umgewandelt / gelöscht; Pfad zu `.temp/wiki-converted/<slug>.md` |
 
 ---
 

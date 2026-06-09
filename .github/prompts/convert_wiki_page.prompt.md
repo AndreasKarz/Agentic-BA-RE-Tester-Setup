@@ -31,7 +31,8 @@ Hints (nicht wiederholen):
   - .github/instructions/user.copilot.instructions.md (Sprache DE-CH, kein ß, kein Gendern)
 - Goldstandard für Look & Feel: wiki-md/CTRM/ctrm-feature-process.md — bei Zweifelsfällen dort nachschauen.
 - Antwort immer auf Deutsch (Schweizer Variante, kein ß). Keine Spekulation.
-- Alle temporären Dateien in .temp/wiki-import/{slug}/ ablegen; nach Abschluss leeren.
+- Alle generierten Artefakte (Markdown + Bilder) in `.temp/wiki-converted/` ablegen — gitignoriert.
+- Download-Temp in `.temp/wiki-import/{slug}/` ablegen; nach Abschluss leeren.
 - ADO-Konzepte (Work-Item-Form, PBI-States, DoR, DoD) via microsoft-docs MCP grounden.
 
 # Aufgabe
@@ -46,6 +47,9 @@ Folge dem 6-Phasen-Workflow aus `.github/skills/wiki-to-markdown/SKILL.md` Schri
 ## Erwartetes Ergebnis
 
 Nach Abschluss:
-1. `wiki-md/{space-lowercase}/{slug}.md` — vollständige Markdown-Datei
-2. `wiki-md/{space-lowercase}/assets/{slug}/NN-name.png` — alle UI-Screenshots
+1. `.temp/wiki-converted/{slug}.md` — vollständige Markdown-Datei (gitignoriert)
+2. `.temp/wiki-converted/assets/{slug}/NN-name.png` — alle UI-Screenshots (gitignoriert)
 3. Kurzer Report: wie viele Bilder behalten / umgewandelt (Mermaid) / als Text extrahiert
+
+> Die Artefakte liegen in `.temp/` und tauchen nicht im Git auf. Sie dienen als
+> lokale Vorschau und als Quelle für den ADO-Wiki-Upload (Mermaid + /.attachments/-Pfade).

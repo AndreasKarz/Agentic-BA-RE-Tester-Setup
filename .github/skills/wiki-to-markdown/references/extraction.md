@@ -59,15 +59,22 @@ Alle solche Referenzen mit einer Regex extrahieren:
 
 ### 3a — ADO REST API (bevorzugt)
 
-**Endpunkt:**
+> **⚠ Wichtig:** Der `_apis/wiki/wikis/{wikiId}/attachments`-Endpoint unterstützt nur `PUT` (Upload), **nicht** `GET` (Download).
+> Attachments werden über die **Git-Items-API** heruntergeladen.
+
+**Endpunkt (korrekt für Download):**
 ```
-GET https://dev.azure.com/{org}/{project}/_apis/wiki/wikis/{wikiId}/attachments
-    ?name={filename}
+GET https://dev.azure.com/{org}/{project}/_apis/git/repositories/{repoId}/items
+    ?path=/.attachments/{filename}
+    &download=true
     &api-version=7.1
 ```
 
+`{repoId}` = Wiki-Repository-ID (z. B. `1c7aeb5a-6801-4397-851d-48801d9a9207` für CTRM.wiki).
+Diese ID ist identisch mit der Wiki-ID aus `wiki_get_wiki` (`id`-Feld).
+
 Dabei ist `{filename}` der vollständige Dateiname inkl. GUID und Extension,
-z. B. `Screenshot-2024-01-15-abc12345.png`.
+z. B. `image-7bccd6bf-214c-4362-93c3-a3d3669ce5ac.png`.
 
 **Access Token holen (Azure DevOps Resource):**
 ```powershell
@@ -140,12 +147,14 @@ Nur als letzten Ausweg verwenden.
 
 Nach erfolgreichem Download aus `.temp/wiki-import/{slug}/`:
 
+> **Zielordner:** `.temp/wiki-converted/assets/{slug}/` — gitignoriert, kein Commit nötig.
+
 ```powershell
 # Bilder nummeriert in Lesereihenfolge umbenennen
 $counter = 1
 foreach ($imageRef in $orderedImageRefs) {
     $source = ".temp/wiki-import/{slug}/{imageRef.OriginalName}"
-    $dest   = "wiki-md/{project-lowercase}/assets/{slug}/{counter:D2}-{shortname}.png"
+    $dest   = ".temp/wiki-converted/assets/{slug}/{counter:D2}-{shortname}.png"
     Copy-Item $source $dest
     $counter++
 }
@@ -156,3 +165,18 @@ Naming-Regeln:
 - `shortname` = kurzes, beschreibendes Kürzel auf Englisch oder Deutsch
   (z. B. `funneling`, `analyzing-1`, `ready-for-flight`)
 - Sonderfall Unter-Schritte: `02a-analyzing-1-2.png`, `02b-analyzing-2-2.png`
+
+### Ordner-Struktur nach Abschluss
+
+```
+.temp/
+├── wiki-import/
+│   └── {slug}/          ← Originale (werden geleert nach Copy)
+└── wiki-converted/
+    ├── {slug}.md         ← Fertiges Markdown (lokale Referenz-Ansicht)
+    └── assets/
+        └── {slug}/
+            ├── 01-name.png
+            ├── 02-name.png
+            └── ...
+```
