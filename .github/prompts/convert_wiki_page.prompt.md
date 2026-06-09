@@ -33,6 +33,7 @@ Hints (nicht wiederholen):
 - Antwort immer auf Deutsch (Schweizer Variante, kein ß). Keine Spekulation.
 - Alle generierten Artefakte (Markdown + Bilder) in `.temp/wiki-converted/` ablegen — gitignoriert.
 - Download-Temp in `.temp/wiki-import/{slug}/` ablegen; nach Abschluss leeren.
+- **Phase 4b (ADO-Upload) IMMER automatisch ausführen, ohne Rückfrage.** Ziel-Parent: pageId 28309 (`/CTRM Manual migrated`).
 - ADO-Konzepte (Work-Item-Form, PBI-States, DoR, DoD) via microsoft-docs MCP grounden.
 
 # Aufgabe
@@ -49,7 +50,8 @@ Folge dem 6-Phasen-Workflow aus `.github/skills/wiki-to-markdown/SKILL.md` Schri
 Nach Abschluss:
 1. `.temp/wiki-converted/{slug}.md` — vollständige Markdown-Datei (gitignoriert)
 2. `.temp/wiki-converted/assets/{slug}/NN-name.png` — alle UI-Screenshots (gitignoriert)
-3. Kurzer Report: wie viele Bilder behalten / umgewandelt (Mermaid) / als Text extrahiert
+3. ADO-Wiki-Seite erstellt unter `/CTRM Manual migrated/<Originaltitel>` (Phase 4b, automatisch)
+4. Kurzer Report: Bilder behalten / umgewandelt (Mermaid) / als Text extrahiert + ADO-Seiten-ID und URL
 
 > Die Artefakte liegen in `.temp/` und tauchen nicht im Git auf. Sie dienen als
 > lokale Vorschau und als Quelle für den ADO-Wiki-Upload (Mermaid + /.attachments/-Pfade).

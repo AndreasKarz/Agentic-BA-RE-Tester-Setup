@@ -24,13 +24,74 @@ Jedes Bild via `view_image` ansehen — dann nach dieser Tabelle entscheiden:
 |-----|-----------|-----------|
 | **UI-Screenshot** | Echtes ADO-Formular, Felder, Buttons, Status-Dropdown | **Bild behalten** + Alt-Text + `**Screenshot-Erläuterung:**` + Aktivitäten-Tabelle |
 | **Annotierter Screenshot** | UI-Screenshot mit Callout-Nummern ①②③ eingebettet | **Bild behalten** + JEDE Annotation ①..⑭ → Feld+Aktion im Alt-Text + Tabelle |
-| **Prozessdiagramm** | PowerPoint/Visio-Boxen+Pfeile, State-Machine, Swimlane | Als **Mermaid rekonstruieren** — kein Bild behalten |
+| **State-Diagramm / einfacher Flow** | Einzelne Linie von Zustand zu Zustand, KEIN Swimlane | Als **Mermaid `stateDiagram-v2`** oder **`graph LR`** (ohne subgraph-Links) |
+| **Swimlane-Diagramm** | Mehrere parallele Spuren nebeneinander (Rollen/Teams), mit Querverbindungen | Als **HTML-Tabelle** mit `<td>`, `rowspan`, inline CSS — **KEIN Mermaid** |
 | **Tabellen-Grafik** | Tabelleninhalt als Bild (z. B. aus PowerPoint-Export) | Als **Markdown-Tabelle rekonstruieren** — kein Bild behalten |
 | **Informationsgrafik** | Icons, Konzept-Überblick, rein symbolisch | Als **Text/Liste rekonstruieren** — kein Bild behalten |
 
-> **Faustregel:** Wenn ein Mensch die Information im Bild auch als Text lesen kann
-> (Tabelle, Liste, Diagramm) → Text. Wenn das Bild ein echtes UI zeigt, das
-> navigiert/bedient werden muss → Bild behalten.
+> **Warum kein Mermaid für Swimlanes?** ADO Wiki unterstützt offiziell **keine Links to/from `subgraph`**
+> und keinen `flowchart`-Typ. `graph LR` mit `subgraph` rendert korrumpiert (gestapelt statt horizontal).
+> HTML-Tabellen mit `rowspan`/`colspan` + inline CSS sind die einzige zuverlässige Darstellung für
+> Swimlane-Diagramme in ADO Wiki.
+
+### Mermaid-Orientierungsregel (Pflicht)
+
+**Mermaid-Diagramme müssen möglichst die Orientierung des Originals spiegeln:**
+
+| Original-Diagramm | Mermaid-Richtung | Syntax |
+|-------------------|-----------------|--------|
+| Horizontal (links → rechts, Prozessfluss) | **Landscape** `LR` | `stateDiagram-v2` mit `direction LR` oder `graph LR` |
+| Vertikal (oben → unten, Hierarchie) | Portrait `TD` | `graph TD` oder `stateDiagram-v2` (default) |
+| Unklar / keine Vorlage | **Landscape** `LR` | Standard-Fallback: immer `LR` wählen |
+
+> **Regel:** Im Zweifel immer **Landscape (`LR`)** — Prozessdiagramme lesen sich horizontal
+> natürlicher und nutzen die Seitenbreite im ADO Wiki besser.
+
+**Für `stateDiagram-v2` Landscape:**
+```
+::: mermaid
+stateDiagram-v2
+    direction LR
+    [*] --> Zustand1 : Trigger
+    Zustand1 --> Zustand2 : Bedingung
+:::
+```
+
+**Für `graph` Landscape:**
+```
+::: mermaid
+graph LR
+    A[Schritt 1] --> B[Schritt 2] --> C[Schritt 3]
+:::
+```
+
+### Swimlane → HTML-Tabelle (Muster)
+
+Für Swimlane-Diagramme mit horizontalen Prozess-Spuren und einer vertikalen CAB/Gate-Spalte:
+
+```html
+<table style="border-collapse:collapse;font-family:Segoe UI,Arial,sans-serif;font-size:12px;width:100%;">
+  <tr>
+    <td style="width:150px;font-weight:bold;padding:6px 10px;">Spur 1</td>
+    <td style="background:#7b2d8b;color:white;padding:6px 10px;">Schritt A</td>
+    <td style="background:#7b2d8b;color:white;padding:6px 10px;">Schritt B</td>
+    <td style="background:#2ecc71;color:white;padding:6px 10px;writing-mode:vertical-lr;
+               text-align:center;font-size:11px;" rowspan="N">Gate / CAB</td>
+    <td style="background:#7b2d8b;color:white;padding:6px 10px;">Schritt C</td>
+  </tr>
+  <tr>
+    <td style="font-weight:bold;padding:6px 10px;">Spur 2</td>
+    <td colspan="2" style="background:#999;color:white;padding:6px 10px;">Schritt 1-2</td>
+    <td style="background:#999;color:white;padding:6px 10px;">Schritt 3</td>
+  </tr>
+</table>
+```
+
+Regeln für ADO-Wiki-HTML-Tabellen:
+- `border-collapse:collapse` ist Pflicht (sonst Doppelrahmen)
+- `writing-mode:vertical-lr` für rotierten Text in `rowspan`-Spalten
+- Farben als Hex-Werte oder benannte Farben (kein `var()`, kein CSS-Grid)
+- Kein `<style>`-Block — nur inline `style="..."`
 
 ---
 
@@ -81,7 +142,7 @@ Exakte Struktur nach [output-template.md](references/output-template.md). Kurzü
 - **H1:** Seitentitel
 - **Meta-Blockquote** nach H1: Accountable-Zeile
 - **Intro-Absatz:** Zweck (1–3 Sätze)
-- **Überblick-Diagramm:** Prozessdiagramm → `Mermaid stateDiagram-v2` oder `flowchart LR`
+- **Überblick-Diagramm:** Prozessdiagramm → `Mermaid stateDiagram-v2` (mit `direction LR`) oder `graph LR` — **immer Landscape, ausser das Original ist explizit vertikal**
 - **Pro Sektion:**
   1. `## Phase N — Titel` (ggf. Meta-Blockquote wiederholen)
   2. `![Alt-Text](assets/<slug>/NN-name.png)` — lokaler Pfad relativ zur `.md`-Datei
@@ -90,6 +151,25 @@ Exakte Struktur nach [output-template.md](references/output-template.md). Kurzü
   5. Hinweis-Blockquotes
 
 > Für das **ADO-Wiki-Upload** (Phase 4b) werden Bildpfade zu `/.attachments/<GUID>.png` umgeschrieben.
+
+### Phase 4b — ADO-Wiki-Upload (IMMER automatisch, ohne Rückfrage)
+
+**Ziel-Parent:** `/CTRM Manual migrated` (pageId 28309, org swisslife, project CTRM, wikiId CTRM.wiki)
+
+1. ADO-Markdown aus `.temp/wiki-converted/<slug>.md` herstellen:
+   - ` ```mermaid ` ... ` ``` ` → `::: mermaid` ... `:::`
+   - Lokale Bildpfade `assets/<slug>/NN-name.png` → `/.attachments/<originalGUID>.png`
+     (Mapping: NN-name.png → GUID aus Phase 1 Attachment-Liste)
+   - `\n`-Escapes in Mermaid-Node-Labels vereinfachen (ADO verarbeitet keine `\n` innerhalb von Labels)
+   - Mermaid-Richtung prüfen: `direction LR` bei `stateDiagram-v2`, `graph LR` bei Flowcharts — ausser das Original ist explizit vertikal
+2. Seiten-Pfad ableiten: `/CTRM Manual migrated/<Originaltitel der Wiki-Seite>`
+   - Originaltitel = exakter Seitentitel aus dem ADO-Wiki (nicht URL-slug)
+3. `mcp_azure_devops__wiki_create_or_update_page` aufrufen:
+   - `wikiIdentifier`: `CTRM.wiki`
+   - `project`: `CTRM`
+   - `path`: `/CTRM Manual migrated/<Originaltitel>`
+   - `content`: ADO-Markdown
+4. Ergebnis-ID und URL im Report ausgeben.
 
 ### Phase 5 — Validieren und Cleanup
 
