@@ -97,8 +97,8 @@ Write-Host "Repository wird aktualisiert..."
 # git reset --hard origin/main
 # git pull --force
 
-# Abhängigkeiten installieren und Playwright-Browser aktualisieren
-Write-Host "Installiere Abhängigkeiten und Playwright-Browser..."
+# Abhängigkeiten installieren
+Write-Host "Installiere Abhängigkeiten..."
 npm install
 
 # Bei Azure anmelden
