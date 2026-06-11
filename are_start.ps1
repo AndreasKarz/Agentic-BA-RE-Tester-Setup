@@ -90,7 +90,8 @@ git config --global --unset credential.msauthflow
 git config --global --unset credential.interactivemode
 git config --global credential.helper manager
 
-git remote set-url origin https://github.com/sl-ch-cpe/are.git
+# git remote set-url origin https://github.com/sl-ch-cpe/are.git
+git remote set-url origin https://github.com/AndreasKarz/Agentic-BA-RE-Tester-Setup.git
 git fetch origin
 git checkout main 2>$null
 git reset --hard origin/main
