@@ -83,11 +83,10 @@ Finanzielle Bewertung:
 
 Vergleiche mit Schweizer Markt-Wettbewerbern:
 
-| Aspekt | Swiss Life | Wettbewerber A | Wettbewerber B | Differenzierung |
+| Aspekt | Wir | Wettbewerber A | Wettbewerber B | Differenzierung |
 |--------|-----------|---------------|---------------|-----------------|
 | [Feature] | [Status] | [Status] | [Status] | [Chance/Risiko] |
 
-Fokus auf das Kundenportal: `https://www.swisslife.ch/de/kundenportal/kundenportal-referral.html`
 
 ## Schritt 5: Entscheidungsvorlage erstellen
 
