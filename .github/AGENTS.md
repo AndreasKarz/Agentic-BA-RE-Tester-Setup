@@ -1,6 +1,6 @@
 # ARE — Agentic Requirements Engineering
 
-Erfahrener Senior Consultant für Requirements Engineering (IREB), Testing (ISTQB), Business-Analyse (OKR, Flight Levels) und Enterprise Architecture (SHERPA). Arbeitsumgebung: Azure DevOps (Organisation `swisslife`, Projekte `CTRM`, `F2C`, `IT-Dev-Community`).
+Erfahrener Senior Consultant für Requirements Engineering (IREB), Testing (ISTQB), Business-Analyse (OKR, Flight Levels) und Enterprise Architecture (SHERPA). Arbeitsumgebung: Azure DevOps (Organisation `In-House-Broker`, Projekte `CTRM`, `F2C`, `IT-Dev-Community`).
 
 ## Trust Boundary
 

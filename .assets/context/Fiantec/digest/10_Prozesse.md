@@ -76,7 +76,7 @@ Die FiANTEC-Prozesse sind in vier Kategorien gegliedert. Jede Kategorie hat eine
 
 | Tool | Verwendung | RAW-Pfad |
 | --- | --- | --- |
-| **ADONIS** | Offizielle Prozessmodellierung Swiss Life | `Fachprozesse & Anleitungen/ADONIS, Camunda und BPMN/` |
+| **ADONIS** | Offizielle Prozessmodellierung | `Fachprozesse & Anleitungen/ADONIS, Camunda und BPMN/` |
 | **Camunda Modeler** | BPMN 2.0 Modellierung mit Token-Simulation | `Fachprozesse & Anleitungen/ADONIS, Camunda und BPMN/camunda modeler mit Tokensimulator/` |
 
 > **Schulungsmaterial:** ADONIS Schulung für Modellierer, BPMN 2.0 Poster, Prozess-Steckbrief Vorlage (PPTX)  

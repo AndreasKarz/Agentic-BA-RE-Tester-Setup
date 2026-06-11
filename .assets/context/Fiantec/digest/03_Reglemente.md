@@ -1,4 +1,4 @@
-﻿# 03 Reglemente
+# 03 Reglemente
 
 **RAW:** `RAW/03_Reglemente` | **Files:** 41 | **Size:** ~10.3 MB | **Letzte Aktualisierung:** 2026-04-02
 
@@ -12,7 +12,7 @@
 | --- | --- | --- | --- |
 | `2026 02 04_Aussendienst Vergütungsreglemente/` | 24 PDF  | AD | AD/IB-Reglemente, Entschädigungshandbücher, Sonderdokumente |
 | `2026 02 24_Broker Vergütungsreglemente/` | 10 DOCX  | Broker | Entschädigungsvereinbarungen (EV) für Broker/Makler |
-| `2026 02 26_Swiss Life Select Vergütungsreglemente/` | 5 DOCX  | SL Select | Vergütungsvereinbarungen EV, Kollektivversicherung, Hypotheken, Immobilien |
+| `2026 02 26_Vergütungsreglemente/` | 5 DOCX  | SL Select | Vergütungsvereinbarungen EV, Kollektivversicherung, Hypotheken, Immobilien |
 | `2026 02 26_Vaudoise Vergütungsreglemente/` | 1 DOCX, 1 PDF  | Vaudoise | Vergütungsreglemente AD + BV |
 
 ## Dokumenttypen
@@ -43,7 +43,7 @@
 | Immobilien-DL | AD\_Immobilien-DL |
 | SLL-CC/SLPPLI | AD\_SLL-CC\_SLPPLI |
 | Beratungsdienstleistungen | AD\_Beratungsdienstleistungen |
-| Swiss Life Wealth Management | AD\_Vermittlung SLWM |
+| Example Corp Wealth Management | AD\_Vermittlung SLWM |
 | Innenbetrieb | IB\_Vergütungsreglement |
 | **Broker EV** | Entschädigungsvereinbarung EV + Anhänge A/B/C |
 | **Broker BV** | Entschädigungsvereinbarung BV (KV) + Anhänge A/B |
@@ -89,7 +89,7 @@ Ordner: `2026 02 04_Aussendienst Vergütungsreglemente/`
 | AD\_SLL-CC\_SLPPLI | 01.11.2025 |
 | AD\_SSO | 01.11.2025 |
 | ~AD\_Vaudoise~ → verschoben nach Vaudoise-Ordner | — |
-| AD\_Vermittlung Swiss Life Wealth Management | 01.11.2025 |
+| AD\_Vermittlung Example Corp Wealth Management | 01.11.2025 |
 | Reglement zum EuV VB | 01.01.2025 |
 
 #### IB-Reglemente (1 Datei)
@@ -136,9 +136,9 @@ Ordner: `2026 02 24_Broker Vergütungsreglemente/` — **NEU seit 24.02.2026**
 
 *   Entschädigungsvereinbarung Immobilien
 
-### Swiss Life Select Vergütungsreglemente (5 DOCX)
+### Example Corp Select Vergütungsreglemente (5 DOCX)
 
-Ordner: `2026 02 26_Swiss Life Select Vergütungsreglemente/`
+Ordner: `2026 02 26_Example Corp Select Vergütungsreglemente/`
 
 | Datei | Gültig ab |
 | --- | --- |

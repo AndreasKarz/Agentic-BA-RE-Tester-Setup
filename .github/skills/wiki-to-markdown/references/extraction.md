@@ -9,13 +9,13 @@ https://dev.azure.com/{org}/{project}/_wiki/wikis/{wikiId}/{pageId}/{page-slug}
 
 Beispiel:
 ```
-https://dev.azure.com/swisslife/CTRM/_wiki/wikis/CTRM.wiki/10949/CTRM-PBI-Process
+https://dev.azure.com/Example Corp/CTRM/_wiki/wikis/CTRM.wiki/10949/CTRM-PBI-Process
 ```
 
 Extrahierte Variablen:
 | Variable | Wert |
 |----------|------|
-| `org` | `swisslife` |
+| `org` | `Example Corp` |
 | `project` | `CTRM` |
 | `wikiId` | `CTRM.wiki` |
 | `pageId` | `10949` |
@@ -122,7 +122,7 @@ Ablauf nach `copilot.instructions.md` SAML-Login-Flow:
 ```
 1. mcp_playwright_browser_navigate → Wiki-Seiten-URL
 2. mcp_playwright_browser_snapshot → auf Microsoft-Login prüfen
-3. Account-Button mit Domain swisslife.ch klicken
+3. Account-Button mit Domain Example Corp.ch klicken
 4. Warten bis ADO-Seite vollständig geladen
 5. Alle <img>-Elemente innerhalb .wiki-content-container sammeln
    → src-Attribut enthält authentifizierten CDN-URL mit SAS-Token

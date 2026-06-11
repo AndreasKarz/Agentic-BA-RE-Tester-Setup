@@ -1,4 +1,4 @@
-﻿# FiANTEC Context — Ordnerstruktur
+# FiANTEC Context — Ordnerstruktur
 
 **Stand:** 2026-04-02 | **Dateien:** 9'651 | **Grösse:** ~9.7 GB
 
@@ -47,7 +47,7 @@
     ├── 03_Reglemente/                   41 Dateien, ~10.3 MB ⚠️ FUNDAMENT
     │   ├── 2026 02 04_Aussendienst Vergütungsreglemente/  24 Dateien
     │   ├── 2026 02 24_Broker Vergütungsreglemente/        10 Dateien
-    │   ├── 2026 02 26_Swiss Life Select Vergütungsreglemente/  5 Dateien
+    │   ├── 2026 02 26_Vergütungsreglemente/  5 Dateien
     │   └── 2026 02 26_Vaudoise Vergütungsreglemente/       2 Dateien
     │
     ├── 04_Testmanagement/               6'692 Dateien, ~769.3 MB

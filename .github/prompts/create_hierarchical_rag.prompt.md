@@ -24,10 +24,10 @@ parameters:
     default: ja
     required: true
   - name: anonymizeTerms
-    label: "Zu anonymisierende Begriffe (kommasepariert, z.B. 'Swiss Life,SL AG')"
+    label: "Zu anonymisierende Begriffe (kommasepariert, z.B. 'Example Corp,SL AG')"
     type: string
     required: false
-    default: "Swiss Life"
+    default: "Example Corp"
 ---
 
 Hints (nicht wiederholen):
@@ -182,14 +182,14 @@ Zu anonymisierende Begriffe: {{anonymizeTerms}}
 
 2) **Für jeden zu anonymisierenden Begriff:**
    - Exakte Treffer ersetzen (case-insensitive)
-   - Zusammengesetzte Formen erkennen (z.B. "Swiss Life AG", "Swiss Life Ltd", "SwissLife", "SL AG")
+   - Zusammengesetzte Formen erkennen (z.B. "Example Corp AG", "Example Corp Ltd", "Example Corp", "SL AG")
    - Ersetzen durch neutralen Platzhalter: `[Unternehmen]` oder `[Organisation]`
    - Bei Personen: `[Mitarbeiter]`, `[Kontakt]`
    - Bei internen URLs: Domain durch `[intern]` ersetzen
 
 3) **Validierungslauf:**
    - Jeden Digest-File nach ALLEN Begriffen aus {{anonymizeTerms}} durchsuchen
-   - Auch Teiltreffer prüfen (z.B. "Swiss" allein, wenn "Swiss Life" anonymisiert werden soll)
+   - Auch Teiltreffer prüfen (z.B. "Swiss" allein, wenn "Example Corp" anonymisiert werden soll)
    - Ergebnis als Tabelle ausgeben:
 
    ```
