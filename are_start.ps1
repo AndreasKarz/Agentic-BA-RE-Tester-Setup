@@ -82,13 +82,13 @@ Write-Host "Umgebungsvariablen aktualisiert!"
 
 # Repository aktualisieren
 Write-Host "Repository wird aktualisiert..."
-git config --global --unset credential.helper
-git config --global --unset credential.usehttppath
-git config --global --unset credential.guiprompt
-git config --global --unset credential.githubauthmodes
-git config --global --unset credential.msauthflow
-git config --global --unset credential.interactivemode
-git config --global credential.helper manager
+# git config --global --unset credential.helper
+# git config --global --unset credential.usehttppath
+# git config --global --unset credential.guiprompt
+# git config --global --unset credential.githubauthmodes
+# git config --global --unset credential.msauthflow
+# git config --global --unset credential.interactivemode
+# git config --global credential.helper manager
 
 # git remote set-url origin https://github.com/sl-ch-cpe/are.git
 # git remote set-url origin https://github.com/AndreasKarz/Agentic-BA-RE-Tester-Setup.git
