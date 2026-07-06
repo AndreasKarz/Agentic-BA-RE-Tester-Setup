@@ -9,37 +9,34 @@
         "test:ui": "playwright test --ui",
         "test:debug": "playwright test --debug",
         "report": "playwright show-report",
-        "setup:pdf2img": "cd .mcp/pdf2img && npm install",
-        "setup:asciidoc": "cd .mcp/asciidoc && npm install",
-        "setup:all": "npm run setup:pdf2img && npm run setup:asciidoc",
         "setup:browsers": "npx playwright install chromium && npx @playwright/mcp install-browser chrome-for-testing",
         "postinstall": "npm run setup:all && npm run setup:browsers"
     },
     "devDependencies": {
         "@azure-devops/mcp": "2.7.0",
-        "@azure/msal-node": "5.1.5",
-        "@playwright/test": "^1.59.1",
-        "@types/node": "^25.6.0",
+        "@azure/msal-node": "5.3.1",
+        "@playwright/test": "^1.61.1",
+        "@types/node": "^26.1.0",
         "typescript": "^6.0.3"
     },
     "dependencies": {
         "@modelcontextprotocol/sdk": "^1.29.0",
-        "@modelcontextprotocol/server-sequential-thinking": "^2025.12.18",
+        "@modelcontextprotocol/server-sequential-thinking": "^2026.7.4",
         "canvas": "^3.2.3",
-        "fs-extra": "^11.3.5",
+        "fs-extra": "^11.3.6",
         "jimp": "^1.6.1",
-        "mongodb-mcp-server": "^1.10.0",
-        "mssql-mcp-server": "^1.2.2",
+        "mongodb-mcp-server": "^1.13.0",
+        "mssql-mcp-server": "^1.3.0",
         "path": "^0.12.7",
         "pdf-lib": "^1.17.1",
         "pdf-parse": "^2.4.5",
         "pdf-poppler": "^0.2.3",
         "pdf2json": "^4.0.3",
         "pdf2pic": "^3.2.0",
-        "pdfjs-dist": "^5.7.284",
-        "puppeteer": "^24.43.0",
-        "sharp": "^0.34.5",
-        "uuid": "^14.0.0"
+        "pdfjs-dist": "^6.1.200",
+        "puppeteer": "^25.3.0",
+        "sharp": "^0.35.3",
+        "uuid": "^14.0.1"
     },
     "engines": {
         "node": ">=18"
