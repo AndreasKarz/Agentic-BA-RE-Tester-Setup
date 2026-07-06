@@ -10,7 +10,7 @@
         "test:debug": "playwright test --debug",
         "report": "playwright show-report",
         "setup:browsers": "npx playwright install chromium && npx @playwright/mcp install-browser chrome-for-testing",
-        "postinstall": "npm run setup:all && npm run setup:browsers"
+        "postinstall": "npm run setup:browsers"
     },
     "devDependencies": {
         "@azure-devops/mcp": "2.7.0",
