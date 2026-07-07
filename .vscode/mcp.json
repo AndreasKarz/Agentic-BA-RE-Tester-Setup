@@ -25,13 +25,7 @@
         "@azure-devops/mcp@latest",
         "${input:adoOrganization}",
         "--authentication",
-        "azcli",
-        "-d",
-        "core",
-        "work-items",
-        "test-plans",
-        "wiki",
-        "work"
+        "azcli"
       ]
     },
     "sequential-thinking": {
